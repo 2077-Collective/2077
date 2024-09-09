@@ -20,7 +20,7 @@
 
 <style>
     .hero {
-        background-image: url('/hero.png');
+        background-image: url('/hero.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
