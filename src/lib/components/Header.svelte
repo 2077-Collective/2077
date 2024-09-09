@@ -30,17 +30,17 @@
 
         <ul class="flex gap-x-4">
             <li>
-                <a href="">
+                <a href="/">
                     <Discord />
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/">
                     <Twitter />
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/">
                     <Farcaster />
                 </a>
             </li>

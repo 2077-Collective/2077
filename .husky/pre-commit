@@ -1,0 +1,19 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running format check..."
+pnpm format || 
+{
+    echo 'Formatting failed. Please run "pnpm format" and fix the issues before committing.'
+    exit 1
+}
+
+echo "Running linter..."
+pnpm lint ||
+{
+    echo 'Linting failed. Please run "pnpm lint" and fix the issues before committing.'
+    exit 1
+}
+
+# If everything passes, proceed with the commit
+exit 0
