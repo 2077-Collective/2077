@@ -10,7 +10,7 @@
     <p class="text-white font-interMedium text-xl text-gray-500">我们是 2077 集体。</p>
     <p class="text-white font-interMedium text-xl text-gray-600">Мы Коллектив 2077.</p>
     <p class="text-white font-interMedium text-xl text-gray-700">نحن مجموعة 2077.</p>
-    <div class="pt-48 text-white">
+    <div class="pt-36 text-white">
         <p class="text-3xl font-interSemi max-w-[680px]">
             We are creatives, researchers, marketers, and developers all working to make <span class="inline-block"><Eth /></span> Ethereum <s>cool</s> again.
         </p>
