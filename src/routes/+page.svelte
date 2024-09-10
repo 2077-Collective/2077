@@ -68,10 +68,10 @@
         <p class="text-3xl font-interSemi pb-16">
             Solving Ethereum's biggest problem
         </p>
-        <h2 class="text-8xl font-interBold">Lack of <br /> Marketing</h2>
+        <h2 class="text-7xl lg:text-8xl font-interBold">Lack of <br /> Marketing</h2>
     </div>
 
-    <div>
+    <div class="pb-16">
         <p class="text-2xl max-w-[720px] pb-16">
             There's an established community of researchers and developers
             focused on building and scaling Ethereum, but there's no unified
@@ -98,6 +98,16 @@
             esoteric technical debates is not useful after a point. For most people,energy is better 
             spent showing the world what users can do with Ethereum right now and getting people on-chain.
         </p>
+    </div>
+
+    <div class="lg:flex lg:justify-center pb-16">
+        <h2 class="font-interBold text-7xl max-w-[600px]">
+            We are Ethernauts making Ethereum <s>cool</s> again and solving ETH's marketing problem.
+        </h2>
+        <div>
+            <img src="/ethernaut.webp" alt="">
+            <p class="text-gray-500 pt-2">An unedited photograph of an Ethernaut</p>
+        </div>
     </div>
 </section>
 

@@ -1,4 +1,5 @@
 <script>
+    import Logo from './icons/Logo.svelte'
     import Discord from './icons/Discord.svelte'
     import Farcaster from './icons/Farcaster.svelte'
     import Twitter from './icons/Twitter.svelte'
@@ -7,7 +8,7 @@
 <header class="pt-8 lg:pt-16 px-6 lg:px-32 absolute w-full">
     <nav class="flex justify-between">
         <a href="/">
-            <img src="/logo.svg" alt="">
+            <Logo />
         </a>
 
         <ul class="hidden lg:flex gap-x-4 text-white">
