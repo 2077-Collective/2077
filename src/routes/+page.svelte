@@ -32,7 +32,7 @@
         >
             <span class="pr-4"><Values /></span> Beliefs
         </h2>
-        <p class="text-2xl font-interMedium max-w-[580px]">
+        <p class="text-3xl font-interRegular max-w-[720px]">
             Crypto has the potential to give people across the world almost
             unimaginable levels of freedom and autonomy.
         </p>
@@ -43,7 +43,7 @@
         >
             <span class="pr-4"><Values /></span> Vision
         </h2>
-        <p class="text-2xl font-interMedium max-w-[580px]">
+        <p class="text-3xl font-interRegular max-w-[720px]">
             We envision a world where everyone has individual sovereignty,
             economic freedom and ownership of the infrastructure that supports
             them.
@@ -55,7 +55,7 @@
         >
             <span class="pr-4"><Values /></span> Mission
         </h2>
-        <p class="text-2xl font-interMedium max-w-[580px]">
+        <p class="text-3xl font-interRegular max-w-[720px]">
             Accelerate Ethereum adoption, because for this vision to
             materialize, crypto must be built on a truly decentralized and
             permissionless base layer.
