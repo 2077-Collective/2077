@@ -17,9 +17,9 @@ export default {
         interBlack: ["Inter-black", "sans-serif"],
       },
       maxWidth: {
-        'screen-2xl': "600px",
-        'screen-3xl': "720px",
-        'screen-4xl': "840px"
+        "screen-2xl": "600px",
+        "screen-3xl": "720px",
+        "screen-4xl": "840px",
       },
     },
   },

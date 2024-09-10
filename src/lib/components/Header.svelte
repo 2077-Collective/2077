@@ -5,13 +5,13 @@
     import Twitter from './icons/Twitter.svelte'
 </script>
 
-<header class="pt-8 lg:pt-16 px-6 lg:px-32 absolute w-full">
+<header class="pt-8 lg:pt-6 px-6 lg:px-32 absolute w-full">
     <nav class="flex justify-between">
         <a href="/">
             <Logo />
         </a>
 
-        <ul class="hidden lg:flex gap-x-4 text-white">
+        <ul class="hidden lg:flex gap-x-6 text-white">
             <li>
                 <a href="/">About us</a>
             </li>
