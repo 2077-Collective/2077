@@ -46,7 +46,7 @@
 	<meta property="og:logo" content="/logo.svg" />
 </svelte:head>
   
-<div class="">
+<div>
     <Header />
     <slot />
 </div>
