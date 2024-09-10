@@ -101,7 +101,7 @@
     </div>
 
     <div class="lg:flex lg:justify-center pb-16">
-        <h2 class="font-interBold text-7xl max-w-[600px]">
+        <h2 class="font-interBold text-6xl lg:text-7xl max-w-[600px] pb-16">
             We are Ethernauts making Ethereum <s>cool</s> again and solving ETH's marketing problem.
         </h2>
         <div>
