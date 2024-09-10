@@ -1,6 +1,6 @@
 <script>
     import Eth from "../lib/components/icons/Eth.svelte";
-    import Values from "../lib/components/icons/Values.svelte";
+    import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
 </script>
 
 <section class="hero px-6 lg:px-32 pt-64 pb-8 min-h-screen">
@@ -30,7 +30,7 @@
         <h2
             class="flex items-center text-6xl font-interSemi tracking-tight"
         >
-            <span class="pr-4"><Values /></span> Beliefs
+            <span class="pr-4"><BulletPoint /></span> Beliefs
         </h2>
         <p class="text-2xl font-interRegular max-w-screen-3xl">
             Crypto has the potential to give people across the world almost
@@ -41,7 +41,7 @@
         <h2
             class="flex items-center text-6xl font-interSemi tracking-tight pb-4"
         >
-            <span class="pr-4"><Values /></span> Vision
+            <span class="pr-4"><BulletPoint /></span> Vision
         </h2>
         <p class="text-2xl font-interRegular max-w-screen-3xl">
             We envision a world where everyone has individual sovereignty,
@@ -53,7 +53,7 @@
         <h2
             class="flex items-center text-6xl font-interSemi tracking-tight pb-4"
         >
-            <span class="pr-4"><Values /></span> Mission
+            <span class="pr-4"><BulletPoint /></span> Mission
         </h2>
         <p class="text-2xl font-interRegular max-w-screen-3xl">
             Accelerate Ethereum adoption, because for this vision to
