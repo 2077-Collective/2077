@@ -15,6 +15,8 @@ export default {
         interBold: ["Inter-bold", "sans-serif"],
         interExtraBold: ["Inter-extraBold", "sans-serif"],
         interBlack: ["Inter-black", "sans-serif"],
+        ibmMedium: ["IBM-medium", "monospace"],
+        ibmSemi: ["IBM-semi", "monospace"],
       },
       maxWidth: {
         "screen-2xl": "600px",

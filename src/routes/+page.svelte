@@ -1,9 +1,10 @@
 <script>
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
+    import Explore from "../lib/components/icons/Explore.svelte";
 </script>
 
-<section class="hero px-6 lg:px-32 pt-64 pb-8 min-h-screen">
+<section class="hero px-6 lg:px-20 pt-64 pb-8 min-h-screen">
     <h1 class="text-white font-interBold text-5xl lg:text-8xl pb-12">
         We are the <br /> 2077 Collective.
     </h1>
@@ -25,11 +26,11 @@
     </div>
 </section>
 
-<section class="px-6 lg:px-32 pt-12 pb-8">
-    <div class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between">
-        <h2
-            class="flex items-center text-6xl font-interSemi tracking-tight"
-        >
+<section class="px-6 lg:px-20 pt-12 pb-8">
+    <div
+        class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
+    >
+        <h2 class="flex items-center text-6xl font-interSemi tracking-tight">
             <span class="pr-4"><BulletPoint /></span> Beliefs
         </h2>
         <p class="text-2xl font-interRegular max-w-screen-3xl">
@@ -37,7 +38,9 @@
             unimaginable levels of freedom and autonomy.
         </p>
     </div>
-    <div class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between">
+    <div
+        class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
+    >
         <h2
             class="flex items-center text-6xl font-interSemi tracking-tight pb-4"
         >
@@ -49,7 +52,9 @@
             them.
         </p>
     </div>
-    <div class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between">
+    <div
+        class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
+    >
         <h2
             class="flex items-center text-6xl font-interSemi tracking-tight pb-4"
         >
@@ -63,7 +68,7 @@
     </div>
 </section>
 
-<section class="flex flex-col gap-y-16 px-6 lg:px-32 pt-12 pb-8">
+<section class="grid gap-y-16 px-6 lg:px-20 pt-12 pb-8">
     <div class="">
         <p class="text-3xl font-interSemi pb-16">
             Solving Ethereum's biggest problem
@@ -73,7 +78,7 @@
         </h2>
     </div>
 
-    <div class="flex flex-col gap-y-16">
+    <div class="grid gap-y-16">
         <div>
             <p class="text-2xl max-w-screen-3xl">
                 There's an established community of researchers and developers
@@ -126,6 +131,64 @@
                 An unedited photograph of an Ethernaut
             </p>
         </div>
+    </div>
+</section>
+
+<section class="grid gap-y-20 bg-slate-100 px-6 lg:px-20 py-32 pb-20">
+    <div class="flex flex-col gap-y-4">
+        <div class="flex gap-x-6 items-center">
+            <div class="bg-green-400 inline-block h-12 w-6"></div>
+            <h2 class="text-6xl font-ibmSemi">EIP-2077</h2>
+        </div>
+        <p class="text-3xl max-w-[1080px]">
+            The 2077 Collective has authored <strong
+                >EIP-2077: Ethereum Marketing Department</strong
+            > to prescribe a strategy for marketing the Ethereum brand online and
+            IRL. EIP-2077 provides a blueprint that guides 2077 Collective's marketing
+            efforts:
+        </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2">
+        <div class="bg-white border border-black p-10 flex flex-col gap-y-6 ">
+            <p class="font-ibmSemi bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center">1</p>
+            <p class="font-interSemi text-2xl">Fill the gap</p>
+            <p class="text-2xl">
+                Establish consensus on core marketing problems, create public
+                good infrastructure to tackle marketing problems, and forge
+                relationships between builders and marketers.
+            </p>
+        </div>
+        <div class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0">
+            <p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">2</p>
+            <p class="font-interSemi text-2xl">Control the Narrative</p>
+            <p class="text-2xl text-[#0B0B0B]">
+                Ethpill newcomers, defend Ethereum from FUD + psyops, and
+                amplify the voices of protocol devs, researchers, and builders.
+            </p>
+        </div>
+        <div class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0">
+            <p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">3</p>
+            <p class="font-interSemi text-2xl">Correct the focus</p>
+            <p class="text-2xl">
+                Bring more people on-chain, increase % of builders in the
+                Ethereum ecosystem, and create tools + resources to onboard
+                users/devs.
+            </p>
+        </div>
+        <div class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0">
+            <p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">4</p>
+            <p class="font-interSemi text-2xl">Promote the ecosystem</p>
+            <p class="text-2xl text-gray-950">
+                Increase mindshare, adoption, and investment in Ethereum through
+                coordinated marketing efforts in the ecosystem and educate
+                users, builders, and businesses about Ethereum L1/L2s.
+            </p>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a class="inline-flex gap-x-4 items-center bg-green-400 hover:bg-green-500 py-4 px-6 rounded-full text-xl font-ibmMedium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
     </div>
 </section>
 
