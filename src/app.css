@@ -67,8 +67,8 @@
 }
 
 @font-face {
-  font-family: 'Keania One';
-  src: url('/fonts/KeaniaOne-Regular.woff2') format('woff2');
+  font-family: "Keania One";
+  src: url("/fonts/KeaniaOne-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

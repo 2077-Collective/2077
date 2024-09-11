@@ -127,7 +127,7 @@
         </h2>
         <div class="">
             <img src="/ethernaut.webp" alt="" width="420" height="420" />
-            <p class="text-gray-500 pt-2">
+            <p class="text-gray-three pt-2">
                 An unedited photograph of an Ethernaut
             </p>
         </div>
@@ -229,10 +229,15 @@
     </div>
 
     <div class="flex flex-col gap-y-8 lg:flex-row lg:gap-x-8 lg:justify-center">
-
         <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
             <p class="text-white text-xl font-interMedium">Website</p>
-            <img src="/globe.webp" alt="globe" loading="lazy" width="840" height="840" />
+            <img
+                src="/globe.webp"
+                alt="globe"
+                loading="lazy"
+                width="840"
+                height="840"
+            />
             <p class="text-white text-xl font-interMedium max-w-screen-3xl">
                 See the geographical distribution of Ethereum validators in
                 real-time. A visual experience with in-depth metrics and
@@ -252,7 +257,13 @@
         <div class="flex flex-col gap-y-8 flex-grow">
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
                 <p class="text-white text-xl font-interMedium">Research hub</p>
-                <img src="/globe1.webp" alt="globe" loading="lazy" width="570" height="248" />
+                <img
+                    src="/globe1.webp"
+                    alt="globe"
+                    loading="lazy"
+                    width="570"
+                    height="248"
+                />
                 <div>
                     <p class="text-white text-xl font-interMedium max-w-96">
                         See the geographical distribution of Ethereum validators
@@ -272,7 +283,13 @@
             </div>
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
                 <p class="text-white text-xl font-interMedium">EIP Wiki</p>
-                <img src="/globe1.webp" alt="globe" loading="lazy" width="570" height="248"  />
+                <img
+                    src="/globe1.webp"
+                    alt="globe"
+                    loading="lazy"
+                    width="570"
+                    height="248"
+                />
                 <p class="text-white text-xl font-interMedium max-w-96">
                     The ultimate resource on Ethereum Improvement Proposals
                     (EIPs) for research nerds.
@@ -291,8 +308,6 @@
 </section>
 
 <section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
-    <p class="text-2xl">Follow along with recent community contributions</p>
-    
 </section>
 
 <style>
