@@ -10,7 +10,14 @@ export default {
         DEFAULT: "#28EB83",
         dark: "#0AD86A",
       },
-      gray: "#F5F5F5"
+      gray: {
+        DEFAULT: "#F5F5F5",
+        one: "#e5e7eb",
+        two: "#d1d5db",
+        three: "#9ca3af",
+        four: "#6b7280",
+        five: "#4b5563",
+      },
     },
     extend: {
       fontFamily: {

@@ -8,15 +8,15 @@
     <h1 class="text-white font-interBold text-5xl lg:text-8xl pb-12">
         We are the <br /> 2077 Collective.
     </h1>
-    <p class="font-interMedium text-xl text-gray-300">
+    <p class="font-interMedium text-xl text-gray-one">
         Nosotros somos el Colectivo 2077.
     </p>
-    <p class="font-interMedium text-xl text-gray-400">
+    <p class="font-interMedium text-xl text-gray-two">
         Wir sind das 2077 Kollektiv.
     </p>
-    <p class="font-interMedium text-xl text-gray-500">我们是 2077 集体。</p>
-    <p class="font-interMedium text-xl text-gray-600">Мы Коллектив 2077.</p>
-    <p class="font-interMedium text-xl text-gray-700">نحن مجموعة 2077.</p>
+    <p class="font-interMedium text-xl text-gray-three">我们是 2077 集体。</p>
+    <p class="font-interMedium text-xl text-gray-four">Мы Коллектив 2077.</p>
+    <p class="font-interMedium text-xl text-gray-five">نحن مجموعة 2077.</p>
     <div class="pt-36 text-white">
         <p class="text-3xl font-interSemi max-w-[680px]">
             We are creatives, researchers, marketers, and developers all working
@@ -126,7 +126,7 @@
             marketing problem.
         </h2>
         <div class="">
-            <img src="/ethernaut.webp" alt="" />
+            <img src="/ethernaut.webp" alt="" width="420" height="420"/>
             <p class="text-gray-500 pt-2">
                 An unedited photograph of an Ethernaut
             </p>
@@ -190,6 +190,10 @@
     <div class="text-center">
         <a class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
     </div>
+</section>
+
+<section>
+
 </section>
 
 <style>
