@@ -11,19 +11,18 @@ export default {
         dark: "#0AD86A",
       },
       gray: {
+        lightest: "#e5e7eb",
+        lighter: "#d1d5db",
+        light: "#9ca3af",
         DEFAULT: "#F5F5F5",
-        one: "#e5e7eb",
-        two: "#d1d5db",
-        three: "#9ca3af",
-        four: "#6b7280",
-        five: "#4b5563",
+        dark: "#6b7280",
+        darker: "#4b5563",
       },
     },
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        ibmMedium: ["IBM-medium", "monospace"],
-        ibmSemi: ["IBM-semi", "monospace"],
+        ibm: ["IBM", "monospace"],
       },
       maxWidth: {
         "screen-2xl": "600px",

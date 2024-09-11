@@ -281,38 +281,38 @@ function xt(T) {
             permissionless base layer.`,
     ge,
     V,
-    et = `<div class=""><p class="text-3xl font-interSemi pb-16">Solving Ethereum&#39;s biggest problem</p> <h2 class="text-7xl lg:text-8xl font-interBold">Lack of <br/> Marketing</h2></div> <div class="grid gap-y-16"><div><p class="text-2xl max-w-screen-3xl">There&#39;s an established community of researchers and developers
+    et = `<div class=""><p class="text-3xl font-inter font-semibold pb-16">Solving Ethereum&#39;s biggest problem</p> <h2 class="text-7xl lg:text-8xl font-inter font-bold">Lack of <br/> Marketing</h2></div> <div class="grid gap-y-16"><div><p class="text-2xl max-w-screen-3xl">There&#39;s an established community of researchers and developers
                 focused on building and scaling Ethereum, but there&#39;s no unified
                 community focused on promoting it. Independent marketing
                 projects at the L2 or dapp/infrastructure layer—while net
                 positive and beneficial for Ethereum—tend to be self-interested
                 and ultimately focused on one specific (albeit important) piece
-                of the puzzle they have an interest in.</p></div> <div><h3 class="font-interSemi text-2xl pb-4">A (visible) narrative vacuum</h3> <p class="text-2xl max-w-screen-3xl">The people whose voices really matter—core developers,
+                of the puzzle they have an interest in.</p></div> <div><h3 class="font-inter font-semibold text-2xl pb-4">A (visible) narrative vacuum</h3> <p class="text-2xl max-w-screen-3xl">The people whose voices really matter—core developers,
                 researchers, builders—are often quiet. The empty space is filled
                 with competitor noise, which is often intellectually dishonest.
                 This shapes the world&#39;s view of Ethereum without anyone to
                 credibly counteract the psyops, dispel misinformation, and
-                proactively share good narratives about Ethereum with the world.</p></div> <div><h3 class="font-interSemi text-2xl pb-4">Focus on the wrong things</h3> <p class="text-2xl max-w-screen-3xl">Too much of the Ethereum community&#39;s energy is spent in tribal
+                proactively share good narratives about Ethereum with the world.</p></div> <div><h3 class="font-inter font-semibold text-2xl pb-4">Focus on the wrong things</h3> <p class="text-2xl max-w-screen-3xl">Too much of the Ethereum community&#39;s energy is spent in tribal
                 arguments on crypto-Twitter, or talking to other crypto natives.
                 Having circular arguments about the investment case or esoteric
                 technical debates is not useful after a point. For most
                 people,energy is better spent showing the world what users can
-                do with Ethereum right now and getting people on-chain.</p></div></div> <div class="lg:flex lg:justify-center"><h2 class="font-interBold text-6xl lg:text-7xl max-w-screen-2xl pb-16">We are Ethernauts making Ethereum <s>cool</s> again and solving ETH&#39;s
+                do with Ethereum right now and getting people on-chain.</p></div></div> <div class="lg:flex lg:justify-center"><h2 class="font-inter font-bold text-6xl lg:text-7xl max-w-screen-2xl pb-16">We are Ethernauts making Ethereum <s>cool</s> again and solving ETH&#39;s
             marketing problem.</h2> <div class=""><img src="/ethernaut.webp" alt=""/> <p class="text-gray-500 pt-2">An unedited photograph of an Ethernaut</p></div></div>`,
     ve,
     y,
     K,
-    tt = `<div class="flex gap-x-6 items-center"><div class="bg-green inline-block h-12 w-6"></div> <h2 class="text-6xl font-ibmSemi">EIP-2077</h2></div> <p class="text-3xl max-w-[1080px]">The 2077 Collective has authored <strong>EIP-2077: Ethereum Marketing Department</strong> to prescribe a strategy for marketing the Ethereum brand online and
+    tt = `<div class="flex gap-x-6 items-center"><div class="bg-green inline-block h-12 w-6"></div> <h2 class="text-6xl font-ibm font-semibold">EIP-2077</h2></div> <p class="text-3xl max-w-[1080px]">The 2077 Collective has authored <strong>EIP-2077: Ethereum Marketing Department</strong> to prescribe a strategy for marketing the Ethereum brand online and
             IRL. EIP-2077 provides a blueprint that guides 2077 Collective&#39;s marketing
             efforts:</p>`,
     De,
     U,
-    st = `<div class="bg-white border border-black p-10 flex flex-col gap-y-6 "><p class="font-ibmSemi bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center">1</p> <p class="font-interSemi text-2xl">Fill the gap</p> <p class="text-2xl">Establish consensus on core marketing problems, create public
+    st = `<div class="bg-white border border-black p-10 flex flex-col gap-y-6 "><p class="font-ibm font-semibold bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center">1</p> <p class="font-inter font-semibold text-2xl">Fill the gap</p> <p class="text-2xl">Establish consensus on core marketing problems, create public
                 good infrastructure to tackle marketing problems, and forge
-                relationships between builders and marketers.</p></div> <div class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0"><p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">2</p> <p class="font-interSemi text-2xl">Control the Narrative</p> <p class="text-2xl text-[#0B0B0B]">Ethpill newcomers, defend Ethereum from FUD + psyops, and
-                amplify the voices of protocol devs, researchers, and builders.</p></div> <div class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0"><p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">3</p> <p class="font-interSemi text-2xl">Correct the focus</p> <p class="text-2xl">Bring more people on-chain, increase % of builders in the
+                relationships between builders and marketers.</p></div> <div class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0"><p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">2</p> <p class="font-inter font-semibold text-2xl">Control the Narrative</p> <p class="text-2xl text-[#0B0B0B]">Ethpill newcomers, defend Ethereum from FUD + psyops, and
+                amplify the voices of protocol devs, researchers, and builders.</p></div> <div class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0"><p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">3</p> <p class="font-inter font-semibold text-2xl">Correct the focus</p> <p class="text-2xl">Bring more people on-chain, increase % of builders in the
                 Ethereum ecosystem, and create tools + resources to onboard
-                users/devs.</p></div> <div class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0"><p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">4</p> <p class="font-interSemi text-2xl">Promote the ecosystem</p> <p class="text-2xl text-gray-950">Increase mindshare, adoption, and investment in Ethereum through
+                users/devs.</p></div> <div class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0"><p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">4</p> <p class="font-inter font-semibold text-2xl">Promote the ecosystem</p> <p class="text-2xl text-gray-950">Increase mindshare, adoption, and investment in Ethereum through
                 coordinated marketing efforts in the ecosystem and educate
                 users, builders, and businesses about Ethereum L1/L2s.</p></div>`,
     qe,
@@ -526,14 +526,18 @@ function xt(T) {
           this.h();
       },
       h() {
-        e(l, "class", "text-white font-interBold text-5xl lg:text-8xl pb-12"),
-          e(p, "class", "font-interMedium text-xl text-gray-300"),
-          e(x, "class", "font-interMedium text-xl text-gray-400"),
-          e(E, "class", "font-interMedium text-xl text-gray-500"),
-          e(I, "class", "font-interMedium text-xl text-gray-600"),
-          e(j, "class", "font-interMedium text-xl text-gray-700"),
+        e(
+          l,
+          "class",
+          "text-white font-inter font-bold text-5xl lg:text-8xl pb-12",
+        ),
+          e(p, "class", "font-inter font-medium text-xl text-gray-300"),
+          e(x, "class", "font-inter font-medium text-xl text-gray-400"),
+          e(E, "class", "font-inter font-medium text-xl text-gray-500"),
+          e(I, "class", "font-inter font-medium text-xl text-gray-600"),
+          e(j, "class", "font-inter font-medium text-xl text-gray-700"),
           e(Y, "class", "inline-block"),
-          e(_, "class", "text-3xl font-interSemi max-w-[680px]"),
+          e(_, "class", "text-3xl font-inter font-semibold max-w-[680px]"),
           e(X, "class", "pt-36 text-white"),
           e(
             t,
@@ -544,9 +548,9 @@ function xt(T) {
           e(
             Z,
             "class",
-            "flex items-center text-6xl font-interSemi tracking-tight",
+            "flex items-center text-6xl font-inter font-semibold tracking-tight",
           ),
-          e(D, "class", "text-2xl font-interRegular max-w-screen-3xl"),
+          e(D, "class", "text-2xl font-inter max-w-screen-3xl"),
           e(
             M,
             "class",
@@ -556,9 +560,9 @@ function xt(T) {
           e(
             q,
             "class",
-            "flex items-center text-6xl font-interSemi tracking-tight pb-4",
+            "flex items-center text-6xl font-inter font-semibold tracking-tight pb-4",
           ),
-          e(W, "class", "text-2xl font-interRegular max-w-screen-3xl"),
+          e(W, "class", "text-2xl font-inter max-w-screen-3xl"),
           e(
             S,
             "class",
@@ -568,9 +572,9 @@ function xt(T) {
           e(
             F,
             "class",
-            "flex items-center text-6xl font-interSemi tracking-tight pb-4",
+            "flex items-center text-6xl font-inter font-semibold tracking-tight pb-4",
           ),
-          e(R, "class", "text-2xl font-interRegular max-w-screen-3xl"),
+          e(R, "class", "text-2xl font-inter max-w-screen-3xl"),
           e(
             P,
             "class",
@@ -584,7 +588,7 @@ function xt(T) {
           e(
             H,
             "class",
-            "inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium",
+            "inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium",
           ),
           e(H, "href", "https://eip2077.info"),
           e(le, "class", "text-center"),

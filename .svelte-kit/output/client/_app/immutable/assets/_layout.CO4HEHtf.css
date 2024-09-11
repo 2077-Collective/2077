@@ -509,22 +509,22 @@ video {
 .text-center {
   text-align: center;
 }
-.font-ibmMedium {
+.font-ibm font-medium {
   font-family: IBM-medium, monospace;
 }
-.font-ibmSemi {
+.font-ibm font-semibold {
   font-family: IBM-semi, monospace;
 }
-.font-interBold {
+.font-inter font-bold {
   font-family: Inter-bold, sans-serif;
 }
-.font-interMedium {
+.font-inter font-medium {
   font-family: Inter-medium, sans-serif;
 }
-.font-interRegular {
+.font-inter {
   font-family: Inter-regular, sans-serif;
 }
-.font-interSemi {
+.font-inter font-semibold {
   font-family: Inter-semi, sans-serif;
 }
 .text-2xl {
