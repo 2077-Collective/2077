@@ -134,7 +134,7 @@
     </div>
 </section>
 
-<section class="grid gap-y-20 bg-slate-100 px-6 lg:px-20 py-32 pb-20">
+<section class="grid gap-y-20 bg-gray px-6 lg:px-20 py-32 pb-20">
     <div class="flex flex-col gap-y-4">
         <div class="flex gap-x-6 items-center">
             <div class="bg-green inline-block h-12 w-6"></div>

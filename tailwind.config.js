@@ -6,10 +6,11 @@ export default {
       black: "#000",
       white: "#fff",
       green: {
-        light: '#48EE95',
-        DEFAULT: '#28EB83',
-        dark: '#0AD86A',
+        light: "#48EE95",
+        DEFAULT: "#28EB83",
+        dark: "#0AD86A",
       },
+      gray: "#F5F5F5"
     },
     extend: {
       fontFamily: {
