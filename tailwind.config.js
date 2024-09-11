@@ -3,7 +3,7 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     colors: {
-      black: "#000",
+      black: "#0B0B0B",
       white: "#fff",
       green: {
         light: "#48EE95",
@@ -29,6 +29,7 @@ export default {
         interBlack: ["Inter-black", "sans-serif"],
         ibmMedium: ["IBM-medium", "monospace"],
         ibmSemi: ["IBM-semi", "monospace"],
+        keania: ["Keania One"],
       },
       maxWidth: {
         "screen-2xl": "600px",

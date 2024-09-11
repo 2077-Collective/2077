@@ -68,7 +68,7 @@
     </div>
 </section>
 
-<section class="grid gap-y-16 px-6 lg:px-20 pt-12 pb-8">
+<section class="flex flex-col gap-y-16 px-6 lg:px-20 pt-12 pb-8">
     <div class="">
         <p class="text-3xl font-interSemi pb-16">
             Solving Ethereum's biggest problem
@@ -126,7 +126,7 @@
             marketing problem.
         </h2>
         <div class="">
-            <img src="/ethernaut.webp" alt="" width="420" height="420"/>
+            <img src="/ethernaut.webp" alt="" width="420" height="420" />
             <p class="text-gray-500 pt-2">
                 An unedited photograph of an Ethernaut
             </p>
@@ -134,7 +134,7 @@
     </div>
 </section>
 
-<section class="grid gap-y-20 bg-gray px-6 lg:px-20 py-32 pb-20">
+<section class="flex flex-col gap-y-20 bg-gray px-6 lg:px-20 py-32 pb-20">
     <div class="flex flex-col gap-y-4">
         <div class="flex gap-x-6 items-center">
             <div class="bg-green inline-block h-12 w-6"></div>
@@ -150,8 +150,12 @@
     </div>
 
     <div class="grid lg:grid-cols-2">
-        <div class="bg-white border border-black p-10 flex flex-col gap-y-6 ">
-            <p class="font-ibmSemi bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center">1</p>
+        <div class="bg-white border border-black p-10 flex flex-col gap-y-6">
+            <p
+                class="font-ibmSemi bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                1
+            </p>
             <p class="font-interSemi text-2xl">Fill the gap</p>
             <p class="text-2xl">
                 Establish consensus on core marketing problems, create public
@@ -159,16 +163,28 @@
                 relationships between builders and marketers.
             </p>
         </div>
-        <div class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0">
-            <p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">2</p>
+        <div
+            class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0"
+        >
+            <p
+                class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                2
+            </p>
             <p class="font-interSemi text-2xl">Control the Narrative</p>
             <p class="text-2xl text-[#0B0B0B]">
                 Ethpill newcomers, defend Ethereum from FUD + psyops, and
                 amplify the voices of protocol devs, researchers, and builders.
             </p>
         </div>
-        <div class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0">
-            <p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">3</p>
+        <div
+            class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0"
+        >
+            <p
+                class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                3
+            </p>
             <p class="font-interSemi text-2xl">Correct the focus</p>
             <p class="text-2xl">
                 Bring more people on-chain, increase % of builders in the
@@ -176,8 +192,14 @@
                 users/devs.
             </p>
         </div>
-        <div class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0">
-            <p class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">4</p>
+        <div
+            class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0"
+        >
+            <p
+                class="font-ibmSemi border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                4
+            </p>
             <p class="font-interSemi text-2xl">Promote the ecosystem</p>
             <p class="text-2xl text-gray-950">
                 Increase mindshare, adoption, and investment in Ethereum through
@@ -188,12 +210,89 @@
     </div>
 
     <div class="text-center">
-        <a class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
+        <a
+            class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+            href="https://eip2077.info"
+            >Explore EIP-2077 <span class="inline-block"><Explore /></span></a
+        >
     </div>
 </section>
 
-<section>
+<section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
+    <div class="flex flex-col gap-y-4">
+        <h2 class="text-6xl font-interMedium">
+            Inde<span class="font-keania">x</span>
+        </h2>
+        <p class="font-interRegular text-2xl">
+            Recent work that has been put out by the collective.
+        </p>
+    </div>
 
+    <div class="flex flex-col gap-y-8 lg:flex-row lg:gap-x-8 lg:justify-center">
+
+        <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
+            <p class="text-white text-xl font-interMedium">Website</p>
+            <img src="/globe.webp" alt="globe" loading="lazy" width="840" height="840" />
+            <p class="text-white text-xl font-interMedium max-w-screen-3xl">
+                See the geographical distribution of Ethereum validators in
+                real-time. A visual experience with in-depth metrics and
+                statistics.
+            </p>
+            <div>
+                <a
+                    class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+                    href="https://eip2077.info"
+                    >etherpedia.2077.xyz <span class="inline-block"
+                        ><Explore /></span
+                    ></a
+                >
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-y-8 flex-grow">
+            <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
+                <p class="text-white text-xl font-interMedium">Research hub</p>
+                <img src="/globe1.webp" alt="globe" loading="lazy" width="570" height="248" />
+                <div>
+                    <p class="text-white text-xl font-interMedium max-w-96">
+                        See the geographical distribution of Ethereum validators
+                        in real-time. A visual experience with in-depth metrics
+                        and statistics.
+                    </p>
+                </div>
+                <div>
+                    <a
+                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+                        href="https://research.2077.xyz"
+                        >research.2077.xyz <span class="inline-block"
+                            ><Explore /></span
+                        ></a
+                    >
+                </div>
+            </div>
+            <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
+                <p class="text-white text-xl font-interMedium">EIP Wiki</p>
+                <img src="/globe1.webp" alt="globe" loading="lazy" width="570" height="248"  />
+                <p class="text-white text-xl font-interMedium max-w-96">
+                    The ultimate resource on Ethereum Improvement Proposals
+                    (EIPs) for research nerds.
+                </p>
+                <div>
+                    <a
+                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+                        href="https://eips.wiki"
+                        >eips.wiki <span class="inline-block"><Explore /></span
+                        ></a
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
+    <p class="text-2xl">Follow along with recent community contributions</p>
+    
 </section>
 
 <style>
