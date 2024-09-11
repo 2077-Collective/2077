@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Inter-regular";
+  font-family: "Inter";
   src: url("/fonts/Inter-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "Inter-medium";
+  font-family: "Inter";
   src: url("/fonts/Inter-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: "Inter-semi";
+  font-family: "Inter";
   src: url("/fonts/Inter-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
@@ -27,7 +27,7 @@
 }
 
 @font-face {
-  font-family: "Inter-bold";
+  font-family: "Inter";
   src: url("/fonts/Inter-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-  font-family: "Inter-extrabold";
+  font-family: "Inter";
   src: url("/fonts/Inter-ExtraBold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
@@ -43,7 +43,7 @@
 }
 
 @font-face {
-  font-family: "Inter-black";
+  font-family: "Inter";
   src: url("/fonts/Inter-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
