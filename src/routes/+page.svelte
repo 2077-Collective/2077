@@ -137,7 +137,7 @@
 <section class="grid gap-y-20 bg-slate-100 px-6 lg:px-20 py-32 pb-20">
     <div class="flex flex-col gap-y-4">
         <div class="flex gap-x-6 items-center">
-            <div class="bg-green-400 inline-block h-12 w-6"></div>
+            <div class="bg-green inline-block h-12 w-6"></div>
             <h2 class="text-6xl font-ibmSemi">EIP-2077</h2>
         </div>
         <p class="text-3xl max-w-[1080px]">
@@ -188,7 +188,7 @@
     </div>
 
     <div class="text-center">
-        <a class="inline-flex gap-x-4 items-center bg-green-400 hover:bg-green-500 py-4 px-6 rounded-full text-xl font-ibmMedium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
+        <a class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
     </div>
 </section>
 

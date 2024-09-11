@@ -2,10 +2,14 @@
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    color: {
+    colors: {
       black: "#000",
       white: "#fff",
-      green: "#28EB83",
+      green: {
+        light: '#48EE95',
+        DEFAULT: '#28EB83',
+        dark: '#0AD86A',
+      },
     },
     extend: {
       fontFamily: {
