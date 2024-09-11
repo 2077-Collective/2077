@@ -2,6 +2,9 @@
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
+    import Discord from "$lib/components/icons/Discord.svelte";
+    import Farcaster from "$lib/components/icons/Farcaster.svelte";
+    import Twitter from "$lib/components/icons/Twitter.svelte";
 </script>
 
 <section class="hero px-6 lg:px-20 pt-64 pb-8 min-h-screen">
@@ -218,7 +221,7 @@
     </div>
 </section>
 
-<section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
+<section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16 pb-32">
     <div class="flex flex-col gap-y-4">
         <h2 class="text-6xl font-interMedium">
             Inde<span class="font-keania">x</span>
@@ -307,12 +310,59 @@
     </div>
 </section>
 
-<section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
+<section
+    class="banner min-h-[633px] flex flex-col gap-y-16 justify-center items-end px-6 lg:px-20 py-16"
+>
+    <div class="flex flex-col gap-y-12">
+        <div class="flex flex-col gap-y-6">
+            <h2 class="text-6xl font-interSemi text-white">
+                Join the Collective
+            </h2>
+            <p class="text-2xl font-interRegular text-white max-w-[732px]">
+                Help shape Ethereum's future by contributing your skills in
+                research, writing, design, or marketing to drive adoption and
+                help reach its full potential.
+            </p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-x-6 gap-y-6">
+            <a
+                class="border border-white rounded-full py-4 px-6 text-white flex gap-x-4"
+                href="https://discord.com"
+            >
+                <Discord />
+                Discord
+            </a>
+            <a
+                class="border border-white rounded-full py-4 px-6 text-white flex gap-x-4"
+                href="https://discord.com"
+            >
+                <Twitter />
+                Follow us
+            </a>
+            <a
+                class="border border-white rounded-full py-4 px-6 text-white flex gap-x-4"
+                href="https://discord.com"
+            >
+                <Farcaster />
+                Farcaster
+            </a>
+        </div>
+    </div>
 </section>
 
 <style>
     .hero {
         background-image: url("/hero.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        background-image: url("/banner.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
