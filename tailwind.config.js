@@ -21,12 +21,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        interRegular: ["Inter-regular", "sans-serif"],
-        interMedium: ["Inter-medium", "sans-serif"],
-        interSemi: ["Inter-semi", "sans-serif"],
-        interBold: ["Inter-bold", "sans-serif"],
-        interExtraBold: ["Inter-extraBold", "sans-serif"],
-        interBlack: ["Inter-black", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
         ibmMedium: ["IBM-medium", "monospace"],
         ibmSemi: ["IBM-semi", "monospace"],
       },
