@@ -23,6 +23,7 @@ export default {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         ibm: ["IBM", "monospace"],
+        keania: ["Keania One"],
       },
       maxWidth: {
         "screen-2xl": "600px",

@@ -195,17 +195,17 @@
 
 <section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
     <div class="flex flex-col gap-y-4">
-        <h2 class="text-6xl font-interMedium">
+        <h2 class="text-6xl font-inter font-medium">
             Inde<span class="font-keania">x</span>
         </h2>
-        <p class="font-interRegular text-2xl">
+        <p class="font-inter text-2xl">
             Recent work that has been put out by the collective.
         </p>
     </div>
 
     <div class="flex flex-col gap-y-8 lg:flex-row lg:gap-x-8 lg:justify-center">
         <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-            <p class="text-white text-xl font-interMedium">Website</p>
+            <p class="text-white text-xl font-inter font-medium">Website</p>
             <img
                 src="/globe.webp"
                 alt="globe"
@@ -213,7 +213,7 @@
                 width="840"
                 height="840"
             />
-            <p class="text-white text-xl font-interMedium max-w-screen-3xl">
+            <p class="text-white text-xl font-inter font-medium max-w-screen-3xl">
                 See the geographical distribution of Ethereum validators in
                 real-time. A visual experience with in-depth metrics and
                 statistics.
@@ -231,7 +231,7 @@
 
         <div class="flex flex-col gap-y-8 flex-grow">
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-                <p class="text-white text-xl font-interMedium">Research hub</p>
+                <p class="text-white text-xl font-inter font-medium">Research hub</p>
                 <img
                     src="/globe1.webp"
                     alt="globe"
@@ -240,7 +240,7 @@
                     height="248"
                 />
                 <div>
-                    <p class="text-white text-xl font-interMedium max-w-96">
+                    <p class="text-white text-xl font-inter font-medium max-w-96">
                         See the geographical distribution of Ethereum validators
                         in real-time. A visual experience with in-depth metrics
                         and statistics.
@@ -257,7 +257,7 @@
                 </div>
             </div>
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-                <p class="text-white text-xl font-interMedium">EIP Wiki</p>
+                <p class="text-white text-xl font-inter font-medium">EIP Wiki</p>
                 <img
                     src="/globe1.webp"
                     alt="globe"
@@ -265,7 +265,7 @@
                     width="570"
                     height="248"
                 />
-                <p class="text-white text-xl font-interMedium max-w-96">
+                <p class="text-white text-xl font-inter font-medium max-w-96">
                     The ultimate resource on Ethereum Improvement Proposals
                     (EIPs) for research nerds.
                 </p>
