@@ -2,9 +2,9 @@
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
-    import Discord from "$lib/components/icons/Discord.svelte";
-    import Farcaster from "$lib/components/icons/Farcaster.svelte";
-    import Twitter from "$lib/components/icons/Twitter.svelte";
+    import Discord from "../lib/components/icons/Discord.svelte";
+    import Farcaster from "../lib/components/icons/Farcaster.svelte";
+    import Twitter from "../lib/components/icons/Twitter.svelte";
 </script>
 
 <section class="hero px-6 lg:px-20 pt-64 pb-8 min-h-screen">
