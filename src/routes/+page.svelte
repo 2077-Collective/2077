@@ -290,7 +290,7 @@
 >
     <div class="flex flex-col gap-y-12">
         <div class="flex flex-col gap-y-6">
-            <h2 class="text-6xl font-interSemi text-white">
+            <h2 class="text-6xl font-inter font-semibold tracking-tight text-white">
                 Join the Collective
             </h2>
             <p class="text-2xl font-interRegular text-white max-w-[732px]">
@@ -302,21 +302,21 @@
 
         <div class="flex flex-col sm:flex-row gap-x-6 gap-y-6">
             <a
-                class="max-w-40 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
+                class="font-inter font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
                 href="https://discord.gg/2077collective" target="_blank"
             >
                 <Discord />
                 Discord
             </a>
             <a
-                class="max-w-40 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
+                class="font-inter font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
                 href="https://x.com/2077Collective" target="_blank"
             >
                 <Twitter />
                 Follow us
             </a>
             <a
-                class="max-w-40 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
+                class="font-inter font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
                 href="https://www.farcaster.id/c/2077collective" target="_blank"
             >
                 <Farcaster />
