@@ -5,7 +5,7 @@
     import Twitter from './icons/Twitter.svelte'
 </script>
 
-<header class="pt-8 lg:pt-6 px-6 lg:px-32 absolute w-full">
+<header class="pt-8 lg:pt-6 px-6 lg:px-20 absolute w-full">
     <nav class="flex justify-between">
         <a href="/">
             <Logo />
