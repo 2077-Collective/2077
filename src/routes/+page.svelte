@@ -2,10 +2,13 @@
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
+    import Discord from "../lib/components/icons/Discord.svelte";
+    import Farcaster from "../lib/components/icons/Farcaster.svelte";
+    import Twitter from "../lib/components/icons/Twitter.svelte";
 </script>
 
 <section class="hero px-6 lg:px-20 pt-64 pb-8 min-h-screen">
-    <h1 class="text-white  font-bold text-5xl lg:text-8xl pb-12">
+    <h1 class="text-white font-bold text-5xl lg:text-8xl pb-12">
         We are the <br /> 2077 Collective.
     </h1>
     <p class=" font-medium text-xl text-gray-lightest">
@@ -18,7 +21,7 @@
     <p class=" font-medium text-xl text-gray-dark">Мы Коллектив 2077.</p>
     <p class=" font-medium text-xl text-gray-darker">نحن مجموعة 2077.</p>
     <div class="pt-36 text-white">
-        <p class="text-3xl  font-semibold max-w-[680px]">
+        <p class="text-3xl font-semibold max-w-[680px]">
             We are creatives, researchers, marketers, and developers all working
             to make <span class="inline-block"><Eth /></span> Ethereum
             <s>cool</s> again.
@@ -30,10 +33,10 @@
     <div
         class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
     >
-        <h2 class="flex items-center text-6xl  font-semibold tracking-tight">
+        <h2 class="flex items-center text-6xl font-semibold tracking-tight">
             <span class="pr-4"><BulletPoint /></span> Beliefs
         </h2>
-        <p class="text-2xl  max-w-screen-3xl">
+        <p class="text-2xl max-w-screen-3xl">
             Crypto has the potential to give people across the world almost
             unimaginable levels of freedom and autonomy.
         </p>
@@ -42,11 +45,11 @@
         class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
     >
         <h2
-            class="flex items-center text-6xl  font-semibold tracking-tight pb-4"
+            class="flex items-center text-6xl font-semibold tracking-tight pb-4"
         >
             <span class="pr-4"><BulletPoint /></span> Vision
         </h2>
-        <p class="text-2xl  max-w-screen-3xl">
+        <p class="text-2xl max-w-screen-3xl">
             We envision a world where everyone has individual sovereignty,
             economic freedom and ownership of the infrastructure that supports
             them.
@@ -56,11 +59,11 @@
         class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
     >
         <h2
-            class="flex items-center text-6xl  font-semibold tracking-tight pb-4"
+            class="flex items-center text-6xl font-semibold tracking-tight pb-4"
         >
             <span class="pr-4"><BulletPoint /></span> Mission
         </h2>
-        <p class="text-2xl  max-w-screen-3xl">
+        <p class="text-2xl max-w-screen-3xl">
             Accelerate Ethereum adoption, because for this vision to
             materialize, crypto must be built on a truly decentralized and
             permissionless base layer.
@@ -70,10 +73,10 @@
 
 <section class="flex flex-col gap-y-16 px-6 lg:px-20 pt-12 pb-8">
     <div class="">
-        <p class="text-3xl  font-semibold pb-16">
+        <p class="text-3xl font-semibold pb-16">
             Solving Ethereum's biggest problem
         </p>
-        <h2 class="text-7xl lg:text-8xl  font-bold">
+        <h2 class="text-7xl lg:text-8xl font-bold">
             Lack of <br /> Marketing
         </h2>
     </div>
@@ -151,7 +154,11 @@
 
     <div class="grid lg:grid-cols-2">
         <div class="bg-white border border-black p-10 flex flex-col gap-y-6">
-            <p class="font-ibm font-semibold bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center">1</p>
+            <p
+                class="font-ibm font-semibold bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                1
+            </p>
             <p class=" font-semibold text-2xl">Fill the gap</p>
             <p class="text-2xl">
                 Establish consensus on core marketing problems, create public
@@ -159,16 +166,28 @@
                 relationships between builders and marketers.
             </p>
         </div>
-        <div class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0">
-            <p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">2</p>
+        <div
+            class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0"
+        >
+            <p
+                class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                2
+            </p>
             <p class=" font-semibold text-2xl">Control the Narrative</p>
             <p class="text-2xl text-[#0B0B0B]">
                 Ethpill newcomers, defend Ethereum from FUD + psyops, and
                 amplify the voices of protocol devs, researchers, and builders.
             </p>
         </div>
-        <div class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0">
-            <p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">3</p>
+        <div
+            class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0"
+        >
+            <p
+                class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                3
+            </p>
             <p class=" font-semibold text-2xl">Correct the focus</p>
             <p class="text-2xl">
                 Bring more people on-chain, increase % of builders in the
@@ -176,8 +195,14 @@
                 users/devs.
             </p>
         </div>
-        <div class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0">
-            <p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">4</p>
+        <div
+            class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0"
+        >
+            <p
+                class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                4
+            </p>
             <p class=" font-semibold text-2xl">Promote the ecosystem</p>
             <p class="text-2xl text-gray-950">
                 Increase mindshare, adoption, and investment in Ethereum through
@@ -186,16 +211,19 @@
             </p>
         </div>
     </div>
-    
+
     <div class="text-center">
-        <a class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
+        <a
+            class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
+            href="https://eip2077.info"
+            >Explore EIP-2077 <span class="inline-block"><Explore /></span></a
+        >
     </div>
-    
 </section>
 
-<section class="flex flex-col gap-y-12 px-6 lg:px-20 py-16">
+<section class="flex flex-col gap-y-12 px-6 lg:px-20 py-16 pb-20">
     <div class="flex flex-col gap-y-4">
-        <h2 class="text-6xl  font-medium">
+        <h2 class="text-6xl font-medium">
             Inde<span class="font-keania">x</span>
         </h2>
         <p class=" text-2xl">
@@ -213,7 +241,7 @@
                 width="840"
                 height="840"
             />
-            <p class="text-white text-xl  font-medium max-w-screen-3xl">
+            <p class="text-white text-xl font-medium max-w-screen-3xl">
                 See the geographical distribution of Ethereum validators in
                 real-time. A visual experience with in-depth metrics and
                 statistics.
@@ -282,12 +310,67 @@
     </div>
 </section>
 
-<section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16">
+<section
+    class="banner flex flex-col gap-y-16 justify-center items-center px-6 lg:px-20 py-16"
+>
+    <div class="min-h-[633px] flex gap-24 flex-col lg:flex-row justify-start items-center">
+        <div>
+            <img src="coin.png" alt="" width="363" height="298">
+        </div>
+        <div class="flex flex-col gap-y-12">
+            <div class="flex flex-col gap-y-6">
+                <h2 class="text-6xl font-semibold tracking-tight text-white">
+                    Join the Collective
+                </h2>
+                <p class="text-2xl text-white max-w-[732px]">
+                    Help shape Ethereum's future by contributing your skills in
+                    research, writing, design, or marketing to drive adoption
+                    and help reach its full potential.
+                </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-x-6 gap-y-6">
+                <a
+                    class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
+                    href="https://discord.gg/2077collective"
+                    target="_blank"
+                >
+                    <Discord />
+                    Discord
+                </a>
+                <a
+                    class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
+                    href="https://x.com/2077Collective"
+                    target="_blank"
+                >
+                    <Twitter />
+                    Follow us
+                </a>
+                <a
+                    class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
+                    href="https://www.farcaster.id/c/2077collective"
+                    target="_blank"
+                >
+                    <Farcaster />
+                    Farcaster
+                </a>
+            </div>
+        </div>
+    </div>
 </section>
 
 <style>
     .hero {
         background-image: url("/hero.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        background-image: url("/banner.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
