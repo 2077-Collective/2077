@@ -220,7 +220,7 @@
             </p>
             <div>
                 <a
-                    class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+                    class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
                     href="https://eip2077.info"
                     >etherpedia.2077.xyz <span class="inline-block"
                         ><Explore /></span
@@ -248,7 +248,7 @@
                 </div>
                 <div>
                     <a
-                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
                         href="https://research.2077.xyz"
                         >research.2077.xyz <span class="inline-block"
                             ><Explore /></span
@@ -271,7 +271,7 @@
                 </p>
                 <div>
                     <a
-                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibmMedium"
+                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
                         href="https://eips.wiki"
                         >eips.wiki <span class="inline-block"><Explore /></span
                         ></a
