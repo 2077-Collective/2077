@@ -127,7 +127,7 @@
         </h2>
         <div class="">
             <img src="/ethernaut.webp" alt="" width="420" height="420" />
-            <p class="text-gray-three pt-2">
+            <p class="text-gray-light pt-2">
                 An unedited photograph of an Ethernaut
             </p>
         </div>
