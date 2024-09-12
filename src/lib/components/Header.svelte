@@ -13,10 +13,10 @@
 
         <ul class="hidden lg:flex gap-x-6 text-white">
             <li>
-                <a href="/">About us</a>
+                <a href="/about">About us</a>
             </li>
             <li>
-                <a href="/">Values</a>
+                <a href="/values">Values</a>
             </li>
             <li>
                 <a href="/">Blog</a>
@@ -25,7 +25,7 @@
                 <a href="/">Resources</a>
             </li>
             <li>
-                <a href="/">Suppport us</a>
+                <a href="/support">Suppport us</a>
             </li>
         </ul>
 

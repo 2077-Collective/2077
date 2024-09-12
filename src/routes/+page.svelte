@@ -2,9 +2,12 @@
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
+    import Visit from "../lib/components/icons/Visit.svelte";
     import Discord from "../lib/components/icons/Discord.svelte";
     import Farcaster from "../lib/components/icons/Farcaster.svelte";
     import Twitter from "../lib/components/icons/Twitter.svelte";
+    import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
+    import MegaEth from "../lib/components/icons/MegaEth.svelte";
 </script>
 
 <section class="hero px-6 lg:px-20 pt-64 pb-8 min-h-screen">
@@ -17,9 +20,15 @@
     <p class="font-inter font-medium text-xl text-gray-lighter">
         Wir sind das 2077 Kollektiv.
     </p>
-    <p class="font-inter font-medium text-xl text-gray-light">我们是 2077 集体。</p>
-    <p class="font-inter font-medium text-xl text-gray-dark">Мы Коллектив 2077.</p>
-    <p class="font-inter font-medium text-xl text-gray-darker">نحن مجموعة 2077.</p>
+    <p class="font-inter font-medium text-xl text-gray-light">
+        我们是 2077 集体。
+    </p>
+    <p class="font-inter font-medium text-xl text-gray-dark">
+        Мы Коллектив 2077.
+    </p>
+    <p class="font-inter font-medium text-xl text-gray-darker">
+        نحن مجموعة 2077.
+    </p>
     <div class="pt-36 text-white">
         <p class="text-3xl font-inter font-semibold max-w-[680px]">
             We are creatives, researchers, marketers, and developers all working
@@ -33,7 +42,9 @@
     <div
         class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
     >
-        <h2 class="flex items-center text-6xl font-inter font-semibold tracking-tight">
+        <h2
+            class="flex items-center text-6xl font-inter font-semibold tracking-tight"
+        >
             <span class="pr-4"><BulletPoint /></span> Beliefs
         </h2>
         <p class="text-2xl font-inter max-w-screen-3xl">
@@ -124,7 +135,9 @@
     </div>
 
     <div class="lg:flex lg:justify-center">
-        <h2 class="font-inter font-bold text-6xl lg:text-7xl max-w-screen-2xl pb-16">
+        <h2
+            class="font-inter font-bold text-6xl lg:text-7xl max-w-screen-2xl pb-16"
+        >
             We are Ethernauts making Ethereum <s>cool</s> again and solving ETH's
             marketing problem.
         </h2>
@@ -154,7 +167,11 @@
 
     <div class="grid lg:grid-cols-2">
         <div class="bg-white border border-black p-10 flex flex-col gap-y-6">
-            <p class="font-ibm font-semibold bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center">1</p>
+            <p
+                class="font-ibm font-semibold bg-black text-white w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                1
+            </p>
             <p class="font-inter font-semibold text-2xl">Fill the gap</p>
             <p class="text-2xl">
                 Establish consensus on core marketing problems, create public
@@ -162,16 +179,30 @@
                 relationships between builders and marketers.
             </p>
         </div>
-        <div class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0">
-            <p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">2</p>
-            <p class="font-inter font-semibold text-2xl">Control the Narrative</p>
+        <div
+            class="bg-white border border-black border-y-0 p-10 flex flex-col gap-y-6 lg:border lg:border-s-0"
+        >
+            <p
+                class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                2
+            </p>
+            <p class="font-inter font-semibold text-2xl">
+                Control the Narrative
+            </p>
             <p class="text-2xl text-[#0B0B0B]">
                 Ethpill newcomers, defend Ethereum from FUD + psyops, and
                 amplify the voices of protocol devs, researchers, and builders.
             </p>
         </div>
-        <div class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0">
-            <p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">3</p>
+        <div
+            class="bg-white border border-black p-10 flex flex-col gap-y-6 lg:border-t-0"
+        >
+            <p
+                class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                3
+            </p>
             <p class="font-inter font-semibold text-2xl">Correct the focus</p>
             <p class="text-2xl">
                 Bring more people on-chain, increase % of builders in the
@@ -179,9 +210,17 @@
                 users/devs.
             </p>
         </div>
-        <div class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0">
-            <p class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center">4</p>
-            <p class="font-inter font-semibold text-2xl">Promote the ecosystem</p>
+        <div
+            class="bg-white border border-black border-t-0 p-10 flex flex-col gap-y-6 lg:border-s-0"
+        >
+            <p
+                class="font-ibm font-semibold border border-black w-8 rounded-full h-8 text-xl flex justify-center items-center"
+            >
+                4
+            </p>
+            <p class="font-inter font-semibold text-2xl">
+                Promote the ecosystem
+            </p>
             <p class="text-2xl text-gray-950">
                 Increase mindshare, adoption, and investment in Ethereum through
                 coordinated marketing efforts in the ecosystem and educate
@@ -189,11 +228,14 @@
             </p>
         </div>
     </div>
-    
+
     <div class="text-center">
-        <a class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium" href="https://eip2077.info">Explore EIP-2077 <span class="inline-block"><Explore /></span></a>
+        <a
+            class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
+            href="https://eip2077.info"
+            >Explore EIP-2077 <span class="inline-block"><Explore /></span></a
+        >
     </div>
-    
 </section>
 
 <section class="flex flex-col gap-y-16 px-6 lg:px-20 py-16 pb-32">
@@ -216,7 +258,9 @@
                 width="840"
                 height="840"
             />
-            <p class="text-white text-xl font-inter font-medium max-w-screen-3xl">
+            <p
+                class="text-white text-xl font-inter font-medium max-w-screen-3xl"
+            >
                 See the geographical distribution of Ethereum validators in
                 real-time. A visual experience with in-depth metrics and
                 statistics.
@@ -234,7 +278,9 @@
 
         <div class="flex flex-col gap-y-8 flex-grow">
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-                <p class="text-white text-xl font-inter font-medium">Research hub</p>
+                <p class="text-white text-xl font-inter font-medium">
+                    Research hub
+                </p>
                 <img
                     src="/globe1.webp"
                     alt="globe"
@@ -243,7 +289,9 @@
                     height="248"
                 />
                 <div>
-                    <p class="text-white text-xl font-inter font-medium max-w-96">
+                    <p
+                        class="text-white text-xl font-inter font-medium max-w-96"
+                    >
                         See the geographical distribution of Ethereum validators
                         in real-time. A visual experience with in-depth metrics
                         and statistics.
@@ -260,7 +308,9 @@
                 </div>
             </div>
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-                <p class="text-white text-xl font-inter font-medium">EIP Wiki</p>
+                <p class="text-white text-xl font-inter font-medium">
+                    EIP Wiki
+                </p>
                 <img
                     src="/globe1.webp"
                     alt="globe"
@@ -290,7 +340,9 @@
 >
     <div class="flex flex-col gap-y-12">
         <div class="flex flex-col gap-y-6">
-            <h2 class="text-6xl font-inter font-semibold tracking-tight text-white">
+            <h2
+                class="text-6xl font-inter font-semibold tracking-tight text-white"
+            >
                 Join the Collective
             </h2>
             <p class="text-2xl font-interRegular text-white max-w-[732px]">
@@ -303,25 +355,129 @@
         <div class="flex flex-col sm:flex-row gap-x-6 gap-y-6">
             <a
                 class="font-inter font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
-                href="https://discord.gg/2077collective" target="_blank"
+                href="https://discord.gg/2077collective"
+                target="_blank"
             >
                 <Discord />
                 Discord
             </a>
             <a
                 class="font-inter font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
-                href="https://x.com/2077Collective" target="_blank"
+                href="https://x.com/2077Collective"
+                target="_blank"
             >
                 <Twitter />
                 Follow us
             </a>
             <a
                 class="font-inter font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
-                href="https://www.farcaster.id/c/2077collective" target="_blank"
+                href="https://www.farcaster.id/c/2077collective"
+                target="_blank"
             >
                 <Farcaster />
                 Farcaster
             </a>
+        </div>
+    </div>
+</section>
+
+<section class="flex flex-col gap-y-20 px-6 lg:px-20 py-32">
+    <div>
+        <h2
+            class="font-inter font-semibold text-6xl lg:text-8xl max-w-screen-3xl tracking-tight"
+        >
+            A huge thanks to our supporters
+        </h2>
+    </div>
+
+    <div class="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1531px] mx-auto">
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <EigenLayer />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <MegaEth />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <img src="/Vitalik.webp" alt="" width="296" height="296" />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <EigenLayer />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <EigenLayer />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <EigenLayer />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <EigenLayer />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
+        </div>
+        <div
+            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+        >
+            <EigenLayer />
+
+            <div
+                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+            >
+                <Visit />
+            </div>
         </div>
     </div>
 </section>
