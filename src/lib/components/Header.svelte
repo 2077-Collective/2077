@@ -31,17 +31,17 @@
 
         <ul class="flex gap-x-4">
             <li>
-                <a href="/">
+                <a href="https://discord.gg/2077collective"  target="_blank">
                     <Discord />
                 </a>
             </li>
             <li>
-                <a href="/">
+                <a href="https://x.com/2077Collective"  target="_blank">
                     <Twitter />
                 </a>
             </li>
             <li>
-                <a href="/">
+                <a href="https://www.farcaster.id/c/2077collective" target="_blank">
                     <Farcaster />
                 </a>
             </li>
