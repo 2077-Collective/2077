@@ -315,7 +315,7 @@
 >
     <div class="min-h-[633px] flex gap-24 flex-col lg:flex-row justify-start items-center">
         <div>
-            <img src="coin.png" alt="" width="363" height="298">
+            <img src="coin.webp" alt="" width="363" height="298">
         </div>
         <div class="flex flex-col gap-y-12">
             <div class="flex flex-col gap-y-6">
