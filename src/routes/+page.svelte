@@ -87,7 +87,7 @@
         <p class="text-3xl font-inter font-semibold pb-16">
             Solving Ethereum's biggest problem
         </p>
-        <h2 class="text-7xl lg:text-8xl font-inter font-bold">
+        <h2 class="text-5xl lg:text-7xl font-inter font-bold">
             Lack of <br /> Marketing
         </h2>
     </div>
@@ -136,7 +136,7 @@
 
     <div class="lg:flex lg:justify-center">
         <h2
-            class="font-inter font-bold text-6xl lg:text-7xl max-w-screen-2xl pb-16"
+            class="font-inter font-bold text-5xl lg:text-7xl max-w-screen-2xl pb-16"
         >
             We are Ethernauts making Ethereum <s>cool</s> again and solving ETH's
             marketing problem.
@@ -231,7 +231,7 @@
 
     <div class="text-center">
         <a
-            class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
+            class="inline-flex items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-sm md:text-xl font-ibm font-medium"
             href="https://eip2077.info"
             >Explore EIP-2077 <span class="inline-block"><Explore /></span></a
         >
@@ -267,7 +267,7 @@
             </p>
             <div>
                 <a
-                    class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
+                    class="inline-flex items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-sm md:text-xl font-ibm font-medium"
                     href="https://eip2077.info"
                     >etherpedia.2077.xyz <span class="inline-block"
                         ><Explore /></span
@@ -299,7 +299,7 @@
                 </div>
                 <div>
                     <a
-                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
+                        class="inline-flex items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-sm md:text-xl font-ibm font-medium"
                         href="https://research.2077.xyz"
                         >research.2077.xyz <span class="inline-block"
                             ><Explore /></span
@@ -324,7 +324,7 @@
                 </p>
                 <div>
                     <a
-                        class="inline-flex gap-x-4 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-xl font-ibm font-medium"
+                        class="inline-flex items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-sm md:text-xl font-ibm font-medium"
                         href="https://eips.wiki"
                         >eips.wiki <span class="inline-block"><Explore /></span
                         ></a
