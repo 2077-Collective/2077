@@ -79,7 +79,7 @@
         <p class="text-3xl font-semibold pb-16">
             Solving Ethereum's biggest problem
         </p>
-        <h2 class="text-7xl lg:text-8xl font-bold">
+        <h2 class="text-6xl lg:text-8xl font-bold">
             Lack of <br /> Marketing
         </h2>
     </div>
@@ -372,15 +372,15 @@
 </section>
 
 <section class="flex flex-col gap-y-20 px-6 lg:px-20 py-32">
-    <div>
+    <div class="max-w-[320px] max-w-[480px]">
         <h2
-            class="font-inter font-semibold text-5xl lg:text-8xl max-w-screen-2xl tracking-tight"
+            class="font-semibold text-5xl lg:text-7xl tracking-tight"
         >
             A huge thanks to our supporters
         </h2>
     </div>
 
-    <div class="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1531px] mx-auto">
+    <div class="grid gap-8 lg:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1531px] mx-auto">
         <div
             class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
         >
