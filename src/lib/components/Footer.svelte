@@ -1,0 +1,45 @@
+<script>
+    import Logo from "./icons/Logo.svelte";
+</script>
+
+<footer class="bg-black text-white p-20">
+    <div class="max-w-screen-5xl mx-auto flex justify-between flex-col-reverse md:flex-row">
+        <div class="flex flex-col justify-between gap-2.5 h-[160px] w-[230px]">
+            <a href="/">
+                <Logo />
+            </a>
+
+            <p>© 2077 Collective</p>
+        </div>
+
+        <div class="flex flex-col gap-8 md:flex-row md:gap-16">
+            <div class="flex flex-col gap-4">
+                <h3 class="opacity-50">2077</h3>
+                <ul class="flex flex-col gap-2 h-[160px] w-[230px]">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/values">Values</a></li>
+                    <li><a href="/support">Support us</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="opacity-50">Resources</h3>
+                <ul class="flex flex-col gap-2 h-[160px] w-[230px]">
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a></li>
+                    <li><a href="https://eips.wiki" target="_blank">EIPS wiki</a></li>
+                    <li><a href="/">Assets</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h3 class="opacity-50">Socials</h3>
+                <ul class="flex flex-col gap-2 h-[160px] w-[230px]">
+                    <li><a href="https://discord.gg/2077collective" target="_blank">Discord</a></li>
+                    <li><a href="https://x.com/2077Collective" target="_blank">X</a></li>
+                    <li><a href="https://www.farcaster.id/c/2077collective" target="_blank">Farcaster</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
