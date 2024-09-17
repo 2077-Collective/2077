@@ -12,11 +12,6 @@
         { component: EigenLayer },
         { component: MegaEth },
         { imageSrc: "/Vitalik.webp", alt: "Vitalik" },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
     ];
 </script>
 
