@@ -8,7 +8,7 @@
     import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
     import MegaEth from "../lib/components/icons/MegaEth.svelte";
 
-    const icons = [
+    const supporterImages = [
         { component: EigenLayer },
         { component: MegaEth },
         { imageSrc: "/Vitalik.webp", alt: "Vitalik" },
@@ -219,7 +219,7 @@
     </div>
 </section>
 
-<section class="container flex flex-col gap-y-12 px-6 lg:px-20 py-16 pb-20">
+<section class="container flex flex-col gap-y-12 py-16 pb-20">
     <div class="flex flex-col gap-y-4">
         <h2 class="text-6xl font-medium">
             Inde<span class="font-keania">x</span>
@@ -370,21 +370,21 @@
     </div>
 
     <div
-        class="max-screen-[1280px] mx-auto grid gap-y-6 gap-x-8 justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        class="grid grid-cols-1 gap-y-6 gap-x-8 justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
-        {#each icons as icon}
+        {#each supporterImages as supporterImage}
             <div
-                class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
+                class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
             >
-                {#if icon.component}
-                    <svelte:component this={icon.component} />
+                {#if supporterImage.component}
+                    <svelte:component this={supporterImage.component} />
                 {/if}
-                {#if icon.imageSrc}
+                {#if supporterImage.imageSrc}
                     <img
-                        src={icon.imageSrc}
-                        alt={icon.alt}
-                        width="296"
-                        height="296"
+                        src={supporterImage.imageSrc}
+                        alt={supporterImage.alt}
+                        width="280"
+                        height="280"
                     />
                 {/if}
                 <div
