@@ -370,7 +370,7 @@
     </div>
 
     <div
-        class="container grid gap-16 justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        class="max-screen-[1280px] mx-auto grid gap-y-6 gap-x-8 justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
         {#each icons as icon}
             <div
