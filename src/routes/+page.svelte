@@ -1,5 +1,4 @@
 <script>
-    import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
     import Visit from "../lib/components/icons/Visit.svelte";
@@ -8,6 +7,17 @@
     import Twitter from "../lib/components/icons/Twitter.svelte";
     import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
     import MegaEth from "../lib/components/icons/MegaEth.svelte";
+
+    const icons = [
+        { component: EigenLayer },
+        { component: MegaEth },
+        { imageSrc: "/Vitalik.webp", alt: "Vitalik" },
+        { component: EigenLayer },
+        { component: EigenLayer },
+        { component: EigenLayer },
+        { component: EigenLayer },
+        { component: EigenLayer },
+    ];
 </script>
 
 <section class="container px-6 lg:px-20 pt-12 pb-8">
@@ -119,7 +129,7 @@
 </section>
 
 <section class="bg-gray px-6 lg:px-20 py-32 pb-20">
-    <div class="container flex flex-col gap-y-20 ">
+    <div class="container flex flex-col gap-y-20">
         <div class="flex flex-col gap-y-4">
             <div class="flex gap-x-6 items-center">
                 <div class="bg-green inline-block h-12 w-6"></div>
@@ -207,7 +217,6 @@
             >
         </div>
     </div>
-
 </section>
 
 <section class="container flex flex-col gap-y-12 px-6 lg:px-20 py-16 pb-20">
@@ -349,109 +358,42 @@
             </div>
         </div>
     </div>
-
 </section>
 
 <section
     class="container flex flex-col justify-center gap-y-20 px-6 lg:px-20 py-32"
 >
-    <div class="max-w-[320px] max-w-[480px]">
+    <div class="max-w-lg">
         <h2 class="font-semibold text-5xl lg:text-7xl tracking-tight">
             A huge thanks to our supporters
         </h2>
     </div>
 
     <div
-        class="container grid gap-8 lg:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        class="container grid gap-16 justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     >
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <EigenLayer />
-
+        {#each icons as icon}
             <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
             >
-                <Visit />
+                {#if icon.component}
+                    <svelte:component this={icon.component} />
+                {/if}
+                {#if icon.imageSrc}
+                    <img
+                        src={icon.imageSrc}
+                        alt={icon.alt}
+                        width="296"
+                        height="296"
+                    />
+                {/if}
+                <div
+                    class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                >
+                    <Visit />
+                </div>
             </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <MegaEth />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <img src="/Vitalik.webp" alt="" width="296" height="296" />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <EigenLayer />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <EigenLayer />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <EigenLayer />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <EigenLayer />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
-        <div
-            class="relative group cursor-pointer hover:bg-gray-lightest w-[296px] h-[296px] inline-flex justify-center items-center border"
-        >
-            <EigenLayer />
-
-            <div
-                class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-            >
-                <Visit />
-            </div>
-        </div>
+        {/each}
     </div>
 </section>
 

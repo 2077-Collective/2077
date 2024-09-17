@@ -26,7 +26,7 @@ export default {
         keania: ["Keania One"],
       },
       maxWidth: {
-        "screen-1xl": "296px",
+        "screen-xl": "296px",
         "screen-2xl": "600px",
         "screen-3xl": "720px",
         "screen-4xl": "840px",
