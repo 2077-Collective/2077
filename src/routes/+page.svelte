@@ -23,7 +23,7 @@
 <section class="px-6 lg:px-20 pt-12 pb-8">
     <div class="container">
         <div
-            class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:justify-between"
+            class="border-b border-gray-500 py-16 flex flex-col gap-y-4 lg:flex-row lg:gap-y-4 lg:justify-between"
         >
             <h2 class="flex items-center text-6xl font-semibold tracking-tight">
                 <span class="pr-4"><BulletPoint /></span> Beliefs
@@ -379,39 +379,41 @@
 </section>
 
 <section
-    class="container flex flex-col justify-center gap-y-20 px-6 lg:px-20 py-32"
+    class="px-6 lg:px-20 py-32"
 >
-    <div class="max-w-lg">
-        <h2 class="font-semibold text-5xl lg:text-7xl tracking-tight">
-            A huge thanks to our supporters
-        </h2>
-    </div>
+    <div class="container flex flex-col justify-center gap-y-20">
+        <div class="max-w-lg">
+            <h2 class="font-semibold text-5xl lg:text-7xl tracking-tight">
+                A huge thanks to our supporters
+            </h2>
+        </div>
 
-    <div
-        class="grid grid-cols-1 gap-y-6 gap-x-8 justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-    >
-        {#each supporterImages as supporterImage}
-            <div
-                class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
-            >
-                {#if supporterImage.component}
-                    <svelte:component this={supporterImage.component} />
-                {/if}
-                {#if supporterImage.imageSrc}
-                    <img
-                        src={supporterImage.imageSrc}
-                        alt={supporterImage.alt}
-                        width="280"
-                        height="280"
-                    />
-                {/if}
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+        >
+            {#each supporterImages as supporterImage}
                 <div
-                    class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
                 >
-                    <Visit />
+                    {#if supporterImage.component}
+                        <svelte:component this={supporterImage.component} />
+                    {/if}
+                    {#if supporterImage.imageSrc}
+                        <img
+                            src={supporterImage.imageSrc}
+                            alt={supporterImage.alt}
+                            width="280"
+                            height="280"
+                        />
+                    {/if}
+                    <div
+                        class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                        <Visit />
+                    </div>
                 </div>
-            </div>
-        {/each}
+            {/each}
+        </div>
     </div>
 </section>
 
