@@ -313,7 +313,7 @@
     class="banner flex flex-col gap-y-16 justify-center items-center px-6 lg:px-20 py-16"
 >
     <div
-        class="container min-h-[633px] flex gap-24 flex-col lg:flex-row lg:gap-48 justify-start items-center"
+        class="container min-h-[633px] flex gap-24 flex-col lg:flex-row lg:gap-28 justify-start items-center"
     >
         <div>
             <img src="coin.webp" alt="" width="363" height="298" />
