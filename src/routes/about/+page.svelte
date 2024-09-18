@@ -31,14 +31,14 @@
         <div class="flex flex-col gap-y-4">
             <h2 class="text-4xl font-bold tracking-tight">What are our values?</h2>
             <p class="text-2xl max-w-screen-5xl">
-                Check out the <a href="/values">values</a> page for a list of the
+                Check out the <a class="underline decoration-green" href="/values">values</a> page for a list of the
                 values the 2077 Collective stands for.
             </p>
         </div>
         <div class="flex flex-col gap-y-4">
             <h2 class="text-4xl font-bold tracking-tight">I'm sold. How do I get involved?</h2>
             <p class="text-2xl max-w-screen-5xl">
-                Join our <a
+                Join our <a class="underline decoration-green"
                     href="https://discord.gg/2077collective"
                     target="_blank">Discord server</a
                 > and contribute!
