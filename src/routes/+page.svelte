@@ -219,90 +219,97 @@
     </div>
 </section>
 
-<section class="container flex flex-col gap-y-12 py-16 pb-20">
-    <div class="flex flex-col gap-y-4">
-        <h2 class="text-6xl font-medium">
-            Inde<span class="font-keania">x</span>
-        </h2>
-        <p class=" text-2xl">
-            Recent work that has been put out by the collective.
-        </p>
-    </div>
-
-    <div class="flex flex-col gap-y-8 lg:flex-row lg:gap-x-8 lg:justify-center">
-        <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-            <p class="text-white text-3xl font-semibold">Website</p>
-            <img
-                src="/globe.webp"
-                alt="globe"
-                loading="lazy"
-                width="840"
-                height="840"
-            />
-
-            <p class="text-white text-xl font-medium max-w-screen-3xl">
-                See the geographical distribution of Ethereum validators in
-                real-time. A visual experience with in-depth metrics and
-                statistics.
+<section class="flex flex-col px-6 lg:px-20 gap-y-12 py-16 pb-20">
+    <div class="container flex flex-col gap-y-12">
+        <div class="flex flex-col gap-y-4">
+            <h2 class="text-6xl font-medium">
+                Inde<span class="font-keania">x</span>
+            </h2>
+            <p class=" text-2xl">
+                Recent work that has been put out by the collective.
             </p>
-            <div>
-                <a
-                    class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-base font-medium"
-                    href="https://eip2077.info"
-                    >etherpedia.2077.xyz <span class="inline-block"
-                        ><Explore /></span
-                    ></a
-                >
-            </div>
         </div>
 
-        <div class="flex flex-col gap-y-8 flex-grow">
+        <div
+            class="flex flex-col gap-y-8 lg:flex-row lg:gap-x-8 lg:justify-center"
+        >
             <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-                <p class="text-white text-3xl font-semibold">Research hub</p>
+                <p class="text-white text-3xl font-semibold">Website</p>
                 <img
-                    src="/globe1.webp"
+                    src="/globe.webp"
                     alt="globe"
                     loading="lazy"
-                    width="570"
-                    height="248"
+                    width="840"
+                    height="840"
                 />
-                <div>
-                    <p class="text-white text-xl font-medium max-w-96">
-                        See the geographical distribution of Ethereum validators
-                        in real-time. A visual experience with in-depth metrics
-                        and statistics.
-                    </p>
-                </div>
+
+                <p class="text-white text-xl font-medium max-w-screen-3xl">
+                    See the geographical distribution of Ethereum validators in
+                    real-time. A visual experience with in-depth metrics and
+                    statistics.
+                </p>
                 <div>
                     <a
-                        class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-base font-medium"
-                        href="https://research.2077.xyz"
-                        >research.2077.xyz <span class="inline-block"
+                        class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-base font-medium"
+                        href="https://eip2077.info"
+                        >etherpedia.2077.xyz <span class="inline-block"
                             ><Explore /></span
                         ></a
                     >
                 </div>
             </div>
-            <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
-                <p class="text-white text-3xl font-semibold">EIP Wiki</p>
-                <img
-                    src="/globe1.webp"
-                    alt="globe"
-                    loading="lazy"
-                    width="570"
-                    height="248"
-                />
-                <p class="text-white text-xl font-medium max-w-96">
-                    The ultimate resource on Ethereum Improvement Proposals
-                    (EIPs) for research nerds.
-                </p>
-                <div>
-                    <a
-                        class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-base font-medium"
-                        href="https://eips.wiki"
-                        >eips.wiki <span class="inline-block"><Explore /></span
-                        ></a
-                    >
+
+            <div class="flex flex-col gap-y-8 flex-grow">
+                <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
+                    <p class="text-white text-3xl font-semibold">
+                        Research hub
+                    </p>
+                    <img
+                        src="/globe1.webp"
+                        alt="globe"
+                        loading="lazy"
+                        width="570"
+                        height="248"
+                    />
+                    <div>
+                        <p class="text-white text-xl font-medium max-w-96">
+                            See the geographical distribution of Ethereum
+                            validators in real-time. A visual experience with
+                            in-depth metrics and statistics.
+                        </p>
+                    </div>
+                    <div>
+                        <a
+                            class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-base font-medium"
+                            href="https://research.2077.xyz"
+                            >research.2077.xyz <span class="inline-block"
+                                ><Explore /></span
+                            ></a
+                        >
+                    </div>
+                </div>
+                <div class="bg-black p-10 flex flex-col gap-y-6 flex-grow">
+                    <p class="text-white text-3xl font-semibold">EIP Wiki</p>
+                    <img
+                        src="/globe1.webp"
+                        alt="globe"
+                        loading="lazy"
+                        width="570"
+                        height="248"
+                    />
+                    <p class="text-white text-xl font-medium max-w-96">
+                        The ultimate resource on Ethereum Improvement Proposals
+                        (EIPs) for research nerds.
+                    </p>
+                    <div>
+                        <a
+                            class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-base font-medium"
+                            href="https://eips.wiki"
+                            >eips.wiki <span class="inline-block"
+                                ><Explore /></span
+                            ></a
+                        >
+                    </div>
                 </div>
             </div>
         </div>
@@ -313,7 +320,7 @@
     class="banner flex flex-col gap-y-16 justify-center items-center px-6 lg:px-20 py-16"
 >
     <div
-        class="container min-h-[633px] flex gap-24 flex-col lg:flex-row lg:gap-28 justify-start items-center"
+        class="container min-h-[633px] flex gap-24 flex-col lg:flex-row lg:gap-28 justify-between items-center"
     >
         <div>
             <img src="coin.webp" alt="" width="363" height="298" />
