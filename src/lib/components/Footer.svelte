@@ -3,8 +3,8 @@
 </script>
 
 <footer class="bg-black text-white p-20">
-    <div class="max-w-screen-5xl mx-auto flex justify-between flex-col-reverse md:flex-row">
-        <div class="flex flex-col justify-between gap-2.5">
+    <div class="max-w-screen-5xl mx-auto flex gap-20 justify-between flex-col-reverse md:flex-row">
+        <div class="flex flex-col justify-between gap-2.5 h-[160px]">
             <a href="/">
                 <Logo />
             </a>
