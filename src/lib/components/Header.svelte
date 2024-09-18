@@ -6,8 +6,8 @@
     import Twitter from "./icons/Twitter.svelte";
 </script>
 
-<header class="hero pb-8 min-h-screen">
-    <div class="container px-6 lg:px-20 flex flex-col">
+<header class="hero px-6 lg:px-20 pb-8 min-h-screen">
+    <div class="container flex flex-col">
         <nav class="flex justify-between py-6">
             <a href="/">
                 <Logo />
@@ -87,10 +87,6 @@
 </header>
 
 <style>
-    .container {
-        max-width: 1440px;
-        margin-inline: auto;
-    }
     .hero {
         background-image: url("/hero.webp");
         background-position: 0;
