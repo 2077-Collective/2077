@@ -299,7 +299,7 @@
                 <div>
                     <a
                         class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-base font-medium"
-                        href="https://eip2077.info"
+                        href="https://etherpedia.2077.xyz"
                         >etherpedia.2077.xyz <span class="inline-block"
                             ><Explore /></span
                         ></a
