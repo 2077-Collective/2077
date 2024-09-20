@@ -1,7 +1,3 @@
-<script>
-    import { page } from "$app/stores";
-</script>
-
 <svg
     width="129"
     height="38"
