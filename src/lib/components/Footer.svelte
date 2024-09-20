@@ -1,12 +1,12 @@
 <script>
-    import Logo from "./icons/Logo.svelte";
+    import FooterLogo from "./icons/FooterLogo.svelte";
 </script>
 
 <footer class="bg-black text-white p-20">
     <div class="container flex gap-20 justify-between flex-col-reverse md:flex-row">
         <div class="flex flex-col justify-between gap-2.5 h-[160px]">
             <a href="/">
-                <Logo />
+                <FooterLogo />
             </a>
 
             <p>© 2077 Collective</p>
