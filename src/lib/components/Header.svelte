@@ -6,7 +6,8 @@
     import Twitter from "./icons/Twitter.svelte";
 </script>
 
-<header class="flex px-6 lg:px-20 justify-center">
+
+<header class="flex justify-center px-6 lg:px-20">
     <nav class="absolute container flex justify-between py-6">
         <a href="/">
             <Logo />
