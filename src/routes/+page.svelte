@@ -21,8 +21,8 @@
     ];
 </script>
 
-<section class="hero min-h-screen">
-    <div class="container px-6 lg:px-20 pt-24">
+<section class="hero px-6 lg:px-20 min-h-screen">
+    <div class="container pt-24">
         <div class="flex flex-col gap-6 pt-20">
             <h1 class="text-white font-bold text-5xl lg:text-8xl pb-12">
                 We are the <br /> 2077 Collective.
