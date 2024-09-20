@@ -1,4 +1,5 @@
 <script>
+    import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
     import Visit from "../lib/components/icons/Visit.svelte";
@@ -19,6 +20,42 @@
         { component: EigenLayer },
     ];
 </script>
+
+<section class="hero px-6 lg:px-20 min-h-screen">
+    <div class="container pt-24">
+        <div class="flex flex-col gap-6 pt-20">
+            <h1 class="text-white font-bold text-5xl lg:text-8xl pb-12">
+                We are the <br /> 2077 Collective.
+            </h1>
+
+            <div>
+                <p class=" font-medium text-xl text-gray-lightest">
+                    Nosotros somos el Colectivo 2077.
+                </p>
+                <p class=" font-medium text-xl text-gray-lighter">
+                    Wir sind das 2077 Kollektiv.
+                </p>
+                <p class=" font-medium text-xl text-gray-light">
+                    我们是 2077 集体。
+                </p>
+                <p class=" font-medium text-xl text-gray-dark">
+                    Мы Коллектив 2077.
+                </p>
+                <p class=" font-medium text-xl text-gray-darker">
+                    نحن مجموعة 2077.
+                </p>
+            </div>
+        </div>
+        <div class="pt-36 text-white pt-[204px]">
+            <p class="text-3xl font-semibold max-w-[680px]">
+                We are creatives, researchers, marketers, and developers all
+                working to make <span class="inline-block"><Eth /></span>
+                Ethereum
+                <s>cool</s> again.
+            </p>
+        </div>
+    </div>
+</section>
 
 <section class="px-6 lg:px-20 pt-12 pb-8">
     <div class="container">
@@ -378,9 +415,7 @@
     </div>
 </section>
 
-<section
-    class="px-6 lg:px-20 py-32"
->
+<section class="px-6 lg:px-20 py-32">
     <div class="container flex flex-col justify-center gap-y-20">
         <div class="max-w-lg">
             <h2 class="font-semibold text-5xl lg:text-7xl tracking-tight">
@@ -418,6 +453,13 @@
 </section>
 
 <style>
+    .hero {
+        background-image: url("/hero.webp");
+        background-position: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 920px;
+    }
     .banner {
         background-image: url("/banner.webp");
         background-size: cover;
