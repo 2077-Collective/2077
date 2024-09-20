@@ -1,5 +1,5 @@
-<section class="px-6 lg:px-20 pt-12 pb-8">
-    <div class="container flex flex-col gap-y-16 pt-20 pb-32">
+<section class="pt-12 pb-8">
+    <div class="container px-6 lg:px-20 flex flex-col gap-y-16 pt-20 pb-32">
         <h1 class="font-bold text-5xl lg:text-8xl">Our values</h1>
         <div class="flex flex-col gap-y-4">
             <h2 class="text-4xl font-bold tracking-tight">Flexibility</h2>
