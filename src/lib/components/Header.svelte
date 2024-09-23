@@ -8,7 +8,7 @@
 
 
 <header class="flex justify-center px-6 lg:px-20">
-    <nav class="absolute container flex justify-between py-6">
+    <nav class="absolute px-6 container flex justify-between py-6">
         <a href="/">
             <Logo />
         </a>
