@@ -150,7 +150,7 @@
                     tribal arguments on crypto-Twitter, or talking to other
                     crypto natives. Having circular arguments about the
                     investment case or esoteric technical debates is not useful
-                    after a point. For most people,energy is better spent
+                    after a point. For most people, energy is better spent
                     showing the world what users can do with Ethereum right now
                     and getting people on-chain.
                 </p>
@@ -159,7 +159,7 @@
     </div>
 </section>
 
-<section class="flex flex-col gap-y-16 px-6 lg:px-20 pt-12 pt-24 pb-44">
+<section class="flex flex-col gap-y-16 px-6 lg:px-20 pt-24 pb-44">
     <div class="container">
         <div class="lg:flex lg:justify-center">
             <h2 class=" font-bold text-6xl lg:text-7xl max-w-screen-2xl pb-16">
@@ -267,7 +267,7 @@
     </div>
 </section>
 
-<section class="flex flex-col px-6 lg:px-20 gap-y-12 py-16 pb-20">
+<section class="flex flex-col px-6 lg:px-20 gap-y-12 pt-16 pb-20">
     <div class="container flex flex-col gap-y-12">
         <div class="flex flex-col gap-y-4">
             <h2 class="text-6xl font-medium">
