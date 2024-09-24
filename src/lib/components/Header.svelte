@@ -4,11 +4,12 @@
     import Discord from "./icons/Discord.svelte";
     import Farcaster from "./icons/Farcaster.svelte";
     import Twitter from "./icons/Twitter.svelte";
+    import MobileNav from './MobileNav.svelte'
 </script>
 
-<header class="flex justify-center">
-    <div class="absolute container">
-        <nav class="flex justify-between py-6 px-6 lg:px-20 xl:px-0">
+<header class="absolute left-0 right-0 px-6 lg:px-20">
+    <div class="container mx-auto">
+        <nav class="flex justify-between items-center py-6">
             <a href="/">
                 <Logo />
             </a>
@@ -32,7 +33,7 @@
                 </li>
             </ul>
 
-            <ul class="flex gap-x-4">
+            <ul class="hidden lg:flex gap-x-4">
                 <li>
                     <a href="https://discord.gg/2077collective" target="_blank">
                         <Discord />
@@ -52,6 +53,7 @@
                     </a>
                 </li>
             </ul>
+            <MobileNav />
         </nav>
     </div>
 </header>

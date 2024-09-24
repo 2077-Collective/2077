@@ -46,7 +46,7 @@
                 </p>
             </div>
         </div>
-        <div class="pt-36 text-white pt-[204px]">
+        <div class="pt-24 md:pt-36 text-white">
             <p class="text-3xl font-semibold max-w-[680px]">
                 We are creatives, researchers, marketers, and developers all
                 working to make <span class="inline-block"><Eth /></span>
