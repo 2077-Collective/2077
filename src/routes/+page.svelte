@@ -429,7 +429,7 @@
             <img src="coin.webp" alt="" width="363" height="298" />
         </div>
         <div class="flex flex-col gap-y-12">
-            <div class="flex flex-col gap-y-6">
+            <div class="flex flex-col gap-y-6 text-center lg:text-left">
                 <h2 class="text-6xl font-semibold tracking-tight text-white">
                     Join the Collective
                 </h2>
@@ -440,7 +440,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col sm:flex-row gap-x-6 gap-y-6">
+            <div class="flex flex-col items-center justify-center lg:justify-start sm:flex-row gap-x-6 gap-y-6">
                 <a
                     class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
                     href="https://discord.gg/2077collective"
@@ -479,7 +479,7 @@
         </div>
 
         <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+            class="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
             {#each supporterImages as supporterImage}
                 {#if supporterImage.link}
