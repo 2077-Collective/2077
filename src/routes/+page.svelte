@@ -8,16 +8,72 @@
     import Twitter from "../lib/components/icons/Twitter.svelte";
     import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
     import MegaEth from "../lib/components/icons/MegaEth.svelte";
+    import Abcde from "$lib/components/icons/Abcde.svelte";
 
     const supporterImages = [
-        { component: EigenLayer },
-        { component: MegaEth },
-        { imageSrc: "/Vitalik.webp", alt: "Vitalik" },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
+        {
+            component: EigenLayer,
+            alt: "eigenlayer",
+            link: "https://eigenlayer.xyz",
+        },
+        { component: MegaEth, alt: "megaeth", link: "https://megaeth.systems" },
+        {
+            imageSrc: "/Vitalik.webp",
+            alt: "Vitalik",
+            link: "https://vitalik.eth.limo/",
+        },
+        {
+            imageSrc: "/spire-labs.webp",
+            alt: "spire-labs",
+            link: "https://spire.dev",
+        },
+        {
+            imageSrc: "/bo-du.webp",
+            alt: "bo-du",
+            link: "https://x.com/0xshake",
+        },
+        { component: Abcde, alt: "abcde", link: "https://www.abcde.com/" },
+        {
+            imageSrc: "/starknet.webp",
+            alt: "starknet",
+            link: "https://www.starknet.io/",
+        },
+        {
+            imageSrc: "/metalex.webp",
+            alt: "metalex",
+            link: "https://www.metalex.tech/",
+        },
+        { imageSrc: "/johannes.webp", alt: "johannes" },
+        {
+            imageSrc: "/azuki.webp",
+            alt: "azuki",
+            link: "https://www.azuki.com/",
+        },
+        {
+            imageSrc: "/james-young.webp",
+            alt: "james-young",
+            link: "https://x.com/jamesyoung",
+        },
+        {
+            imageSrc: "/defi-dave.webp",
+            alt: "defi-dave",
+            link: "https://x.com/DeFiDave22",
+        },
+        {
+            imageSrc: "/fuel-labs.webp",
+            alt: "fuel-labs",
+            link: "https://fuel.network",
+        },
+        {
+            imageSrc: "/shun-kanoki.webp",
+            alt: "shun-kanoki",
+            link: "https://x.com/shunkakinoki",
+        },
+        {
+            imageSrc: "/lightso.webp",
+            alt: "lightso",
+            link: "https://light.so/home",
+        },
     ];
 </script>
 
@@ -321,7 +377,8 @@
                     />
                     <div>
                         <p class="text-white text-xl font-medium max-w-96">
-                            Deep dives and technical analyses on Ethereum infrastructure, protocols, and applications
+                            Deep dives and technical analyses on Ethereum
+                            infrastructure, protocols, and applications
                         </p>
                     </div>
                     <div>
@@ -425,26 +482,43 @@
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
             {#each supporterImages as supporterImage}
-                <div
-                    class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
-                >
-                    {#if supporterImage.component}
-                        <svelte:component this={supporterImage.component} />
-                    {/if}
-                    {#if supporterImage.imageSrc}
-                        <img
-                            src={supporterImage.imageSrc}
-                            alt={supporterImage.alt}
-                            width="280"
-                            height="280"
-                        />
-                    {/if}
-                    <div
-                        class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                {#if supporterImage.link}
+                    <a
+                        href={supporterImage.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
                     >
-                        <Visit />
+                        {#if supporterImage.component}
+                            <svelte:component this={supporterImage.component} />
+                        {/if}
+                        {#if supporterImage.imageSrc}
+                            <img
+                                src={supporterImage.imageSrc}
+                                alt={supporterImage.alt}
+                            />
+                        {/if}
+                        <div
+                            class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                        >
+                            <Visit />
+                        </div>
+                    </a>
+                {:else}
+                    <div
+                        class="relative w-[280px] h-[280px] inline-flex justify-center items-center border"
+                    >
+                        {#if supporterImage.component}
+                            <svelte:component this={supporterImage.component} />
+                        {/if}
+                        {#if supporterImage.imageSrc}
+                            <img
+                                src={supporterImage.imageSrc}
+                                alt={supporterImage.alt}
+                            />
+                        {/if}
                     </div>
-                </div>
+                {/if}
             {/each}
         </div>
     </div>
