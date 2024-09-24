@@ -321,9 +321,7 @@
                     />
                     <div>
                         <p class="text-white text-xl font-medium max-w-96">
-                            See the geographical distribution of Ethereum
-                            validators in real-time. A visual experience with
-                            in-depth metrics and statistics.
+                            Deep dives and technical analyses on Ethereum infrastructure, protocols, and applications
                         </p>
                     </div>
                     <div>
