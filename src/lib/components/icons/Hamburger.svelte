@@ -10,7 +10,12 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
 >
-    <rect class="text-current" width="28" height="2" rx="1" fill={$page.url.pathname === '/' ? 'white' : 'black'}
+    <rect
+        class="text-current"
+        width="28"
+        height="2"
+        rx="1"
+        fill={$page.url.pathname === "/" ? "white" : "black"}
     ></rect>
     <rect
         class="text-current"
@@ -18,7 +23,7 @@
         width="28"
         height="2"
         rx="1"
-        fill={$page.url.pathname === '/' ? 'white' : 'black'}
+        fill={$page.url.pathname === "/" ? "white" : "black"}
     ></rect>
     <rect
         class="text-current"
@@ -27,6 +32,6 @@
         width="20"
         height="2"
         rx="1"
-        fill={$page.url.pathname === '/' ? 'white' : 'black'}
+        fill={$page.url.pathname === "/" ? "white" : "black"}
     ></rect>
 </svg>
