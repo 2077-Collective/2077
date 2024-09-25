@@ -9,6 +9,11 @@
     import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
     import MegaEth from "../lib/components/icons/MegaEth.svelte";
     import Abcde from "../lib/components/icons/Abcde.svelte";
+    import Azuki from "../lib/components/logos/Azuki.svelte";
+    import Fuellabs from "../lib/components/logos/Fuellabs.svelte";
+    import Lightso from "../lib/components/logos/Lightso.svelte";
+    import Metalex from "../lib/components/logos/Metalex.svelte";
+    import Starknet from "../lib/components/logos/Starknet.svelte";
 
     const supporterImages = [
         {
@@ -31,48 +36,48 @@
             imageSrc: "/bo-du.webp",
             alt: "bo-du",
             link: "https://x.com/0xshake",
+            darkBackground: true,
         },
         { component: Abcde, alt: "abcde", link: "https://www.abcde.com/" },
         {
-            imageSrc: "/starknet.webp",
-            alt: "starknet",
-            link: "https://www.starknet.io/",
-        },
-        {
-            imageSrc: "/metalex.webp",
+            component: Metalex,
             alt: "metalex",
             link: "https://www.metalex.tech/",
         },
         { imageSrc: "/johannes.webp", alt: "johannes" },
         {
-            imageSrc: "/azuki.webp",
-            alt: "azuki",
-            link: "https://www.azuki.com/",
+            component: Starknet,
+            alt: "starknet",
+            link: "https://www.starknet.io/",
         },
         {
             imageSrc: "/james-young.webp",
             alt: "james-young",
             link: "https://x.com/jamesyoung",
+            darkBackground: true,
+        },
+        { component: Azuki, alt: "azuki", link: "https://www.azuki.com/" },
+        {
+            component: Fuellabs,
+            alt: "fuel-labs",
+            link: "https://fuel.network",
+            darkBackground: true,
+        },
+        {
+            component: Lightso,
+            alt: "Lightso",
+            link: "https://light.so/home",
+        },
+        {
+            imageSrc: "/shunkakinoki.webp",
+            alt: "shunkakinoki",
+            link: "https://x.com/shunkakinoki",
+            darkBackground: true,
         },
         {
             imageSrc: "/defi-dave.webp",
             alt: "defi-dave",
             link: "https://x.com/DeFiDave22",
-        },
-        {
-            imageSrc: "/fuel-labs.webp",
-            alt: "fuel-labs",
-            link: "https://fuel.network",
-        },
-        {
-            imageSrc: "/shun-kanoki.webp",
-            alt: "shun-kanoki",
-            link: "https://x.com/shunkakinoki",
-        },
-        {
-            imageSrc: "/lightso.webp",
-            alt: "lightso",
-            link: "https://light.so/home",
         },
     ];
 </script>
@@ -504,9 +509,13 @@
 
                     {#if supporterImage.link}
                         <div
-                            class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            class={`absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                                supporterImage.darkBackground
+                                    ? "text-white"
+                                    : ""
+                            }`}
                         >
-                            <Visit />
+                            <Visit {supporterImage} />
                         </div>
                     {/if}
                 </svelte:element>
