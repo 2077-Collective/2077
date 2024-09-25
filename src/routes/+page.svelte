@@ -482,43 +482,34 @@
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
             {#each supporterImages as supporterImage}
-                {#if supporterImage.link}
-                    <a
-                        href={supporterImage.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
-                    >
-                        {#if supporterImage.component}
-                            <svelte:component this={supporterImage.component} />
-                        {/if}
-                        {#if supporterImage.imageSrc}
-                            <img
-                                src={supporterImage.imageSrc}
-                                alt={supporterImage.alt}
-                            />
-                        {/if}
+                <svelte:element
+                    this={supporterImage.link ? "a" : "div"}
+                    href={supporterImage.link}
+                    target={supporterImage.link ? "_blank" : undefined}
+                    rel={supporterImage.link
+                        ? "noopener noreferrer"
+                        : undefined}
+                    class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
+                >
+                    {#if supporterImage.component}
+                        <svelte:component this={supporterImage.component} />
+                    {/if}
+
+                    {#if supporterImage.imageSrc}
+                        <img
+                            src={supporterImage.imageSrc}
+                            alt={supporterImage.alt}
+                        />
+                    {/if}
+
+                    {#if supporterImage.link}
                         <div
                             class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                         >
                             <Visit />
                         </div>
-                    </a>
-                {:else}
-                    <div
-                        class="relative w-[280px] h-[280px] inline-flex justify-center items-center border"
-                    >
-                        {#if supporterImage.component}
-                            <svelte:component this={supporterImage.component} />
-                        {/if}
-                        {#if supporterImage.imageSrc}
-                            <img
-                                src={supporterImage.imageSrc}
-                                alt={supporterImage.alt}
-                            />
-                        {/if}
-                    </div>
-                {/if}
+                    {/if}
+                </svelte:element>
             {/each}
         </div>
     </div>
