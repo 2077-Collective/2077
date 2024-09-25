@@ -2,12 +2,6 @@
     import { slide } from "svelte/transition";
     import { quintOut } from "svelte/easing";
     import Hamburger from "./icons/Hamburger.svelte";
-    import About from "./icons/About.svelte";
-    import Values from "./icons/Values.svelte";
-    import Wiki from "./icons/Wiki.svelte";
-    import Research from "./icons/Research.svelte";
-    import Etherpedia from "./icons/Etherpedia.svelte";
-    import Support from "./icons/Support.svelte";
 
     let open = false;
 </script>
