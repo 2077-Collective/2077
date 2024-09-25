@@ -31,6 +31,7 @@
             imageSrc: "/bo-du.webp",
             alt: "bo-du",
             link: "https://x.com/0xshake",
+            darkBackground: true,
         },
         { component: Abcde, alt: "abcde", link: "https://www.abcde.com/" },
         {
@@ -38,41 +39,45 @@
             alt: "starknet",
             link: "https://www.starknet.io/",
         },
+        { imageSrc: "/johannes.webp", alt: "johannes" },
         {
             imageSrc: "/metalex.webp",
             alt: "metalex",
             link: "https://www.metalex.tech/",
         },
-        { imageSrc: "/johannes.webp", alt: "johannes" },
+        {
+            imageSrc: "/james-young.webp",
+            alt: "james-young",
+            link: "https://x.com/jamesyoung",
+            darkBackground: true,
+        },
         {
             imageSrc: "/azuki.webp",
             alt: "azuki",
             link: "https://www.azuki.com/",
         },
         {
-            imageSrc: "/james-young.webp",
-            alt: "james-young",
-            link: "https://x.com/jamesyoung",
-        },
-        {
-            imageSrc: "/defi-dave.webp",
-            alt: "defi-dave",
-            link: "https://x.com/DeFiDave22",
-        },
-        {
             imageSrc: "/fuel-labs.webp",
             alt: "fuel-labs",
             link: "https://fuel.network",
-        },
-        {
-            imageSrc: "/shun-kanoki.webp",
-            alt: "shun-kanoki",
-            link: "https://x.com/shunkakinoki",
+            darkBackground: true,
         },
         {
             imageSrc: "/lightso.webp",
             alt: "lightso",
             link: "https://light.so/home",
+            darkBackground: true,
+        },
+        {
+            imageSrc: "/shunkakinoki.webp",
+            alt: "shunkakinoki",
+            link: "https://x.com/shunkakinoki",
+            darkBackground: true,
+        },
+        {
+            imageSrc: "/defi-dave.webp",
+            alt: "defi-dave",
+            link: "https://x.com/DeFiDave22",
         },
     ];
 </script>
@@ -504,9 +509,13 @@
 
                     {#if supporterImage.link}
                         <div
-                            class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                            class={`absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                                supporterImage.darkBackground
+                                    ? "text-white"
+                                    : ""
+                            }`}
                         >
-                            <Visit />
+                            <Visit {supporterImage}/>
                         </div>
                     {/if}
                 </svelte:element>
