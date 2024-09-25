@@ -13,6 +13,7 @@
     import Fuellabs from "../lib/components/logos/Fuellabs.svelte";
     import Lightso from "../lib/components/logos/Lightso.svelte";
     import Metalex from "../lib/components/logos/Metalex.svelte";
+    import Starknet from "../lib/components/logos/Starknet.svelte";
 
     const supporterImages = [
         {
@@ -39,15 +40,15 @@
         },
         { component: Abcde, alt: "abcde", link: "https://www.abcde.com/" },
         {
-            imageSrc: "/starknet.webp",
-            alt: "starknet",
-            link: "https://www.starknet.io/",
-        },
-        { imageSrc: "/johannes.webp", alt: "johannes" },
-        {
             component: Metalex,
             alt: "metalex",
             link: "https://www.metalex.tech/",
+        },
+        { imageSrc: "/johannes.webp", alt: "johannes" },
+        {
+            component: Starknet,
+            alt: "starknet",
+            link: "https://www.starknet.io/",
         },
         {
             imageSrc: "/james-young.webp",
