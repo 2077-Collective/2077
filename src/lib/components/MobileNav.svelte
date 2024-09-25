@@ -52,17 +52,26 @@
                 </a>
             </li>
             <li>
-                <a href="/about" class="flex items-center gap-2 active:font-bold">
+                <a
+                    href="/about"
+                    class="flex items-center gap-2 active:font-bold"
+                >
                     <h3>About us</h3>
                 </a>
             </li>
             <li>
-                <a href="/values" class="flex items-center gap-2 active:font-bold">
+                <a
+                    href="/values"
+                    class="flex items-center gap-2 active:font-bold"
+                >
                     <h3>Values</h3>
                 </a>
             </li>
             <li>
-                <a href="/support" class="flex items-center gap-2 active:text-red">
+                <a
+                    href="/support"
+                    class="flex items-center gap-2 active:text-red"
+                >
                     <h3>Support us</h3>
                 </a>
             </li>
