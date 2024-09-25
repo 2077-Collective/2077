@@ -61,7 +61,6 @@
             component: Fuellabs,
             alt: "fuel-labs",
             link: "https://fuel.network",
-            darkBackground: true,
         },
         {
             component: Lightso,
@@ -78,6 +77,17 @@
             imageSrc: "/defi-dave.webp",
             alt: "defi-dave",
             link: "https://x.com/DeFiDave22",
+        },
+        {
+            imageSrc: "/dankrad.webp",
+            alt: "dankrad",
+            link: "https://x.com/dankrad",
+        },
+        {
+            imageSrc: "/wei-dai.webp",
+            alt: "wei-dai",
+            link: "https://x.com/_weidai",
+            darkBackground: true,
         },
     ];
 </script>
