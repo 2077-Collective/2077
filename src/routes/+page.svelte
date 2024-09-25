@@ -9,6 +9,10 @@
     import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
     import MegaEth from "../lib/components/icons/MegaEth.svelte";
     import Abcde from "../lib/components/icons/Abcde.svelte";
+    import Azuki from "../lib/components/logos/Azuki.svelte";
+    import Fuellabs from "../lib/components/logos/Fuellabs.svelte";
+    import Lightso from "../lib/components/logos/Lightso.svelte";
+    import Metalex from "../lib/components/logos/Metalex.svelte";
 
     const supporterImages = [
         {
@@ -41,7 +45,7 @@
         },
         { imageSrc: "/johannes.webp", alt: "johannes" },
         {
-            imageSrc: "/metalex.webp",
+            component: Metalex,
             alt: "metalex",
             link: "https://www.metalex.tech/",
         },
@@ -51,22 +55,17 @@
             link: "https://x.com/jamesyoung",
             darkBackground: true,
         },
+        { component: Azuki, alt: "azuki", link: "https://www.azuki.com/" },
         {
-            imageSrc: "/azuki.webp",
-            alt: "azuki",
-            link: "https://www.azuki.com/",
-        },
-        {
-            imageSrc: "/fuel-labs.webp",
+            component: Fuellabs,
             alt: "fuel-labs",
             link: "https://fuel.network",
             darkBackground: true,
         },
         {
-            imageSrc: "/lightso.webp",
-            alt: "lightso",
+            component: Lightso,
+            alt: "Lightso",
             link: "https://light.so/home",
-            darkBackground: true,
         },
         {
             imageSrc: "/shunkakinoki.webp",
@@ -515,7 +514,7 @@
                                     : ""
                             }`}
                         >
-                            <Visit {supporterImage}/>
+                            <Visit {supporterImage} />
                         </div>
                     {/if}
                 </svelte:element>
