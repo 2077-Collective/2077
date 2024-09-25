@@ -8,7 +8,7 @@
     import Twitter from "../lib/components/icons/Twitter.svelte";
     import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
     import MegaEth from "../lib/components/icons/MegaEth.svelte";
-    import Abcde from "$lib/components/icons/Abcde.svelte";
+    import Abcde from "../lib/components/icons/Abcde.svelte";
 
     const supporterImages = [
         {
