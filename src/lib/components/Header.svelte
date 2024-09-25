@@ -5,15 +5,7 @@
     import Farcaster from "./icons/Farcaster.svelte";
     import Twitter from "./icons/Twitter.svelte";
     import MobileNav from "./MobileNav.svelte";
-
-    let isMobile = window.innerWidth < 1024;
-
-    function handleResize() {
-        isMobile = window.innerWidth < 1024;
-    }
 </script>
-
-<svelte:window on:resize={handleResize} />
 
 <header class="absolute left-0 right-0 px-6 lg:px-20">
     <div class="container mx-auto">
@@ -22,54 +14,56 @@
                 <Logo />
             </a>
 
-            {#if !isMobile}
-                <ul
-                    class="hidden lg:flex gap-x-6"
-                    class:text-white={$page.url.pathname === "/"}
-                    class:text-black={$page.url.pathname !== "/"}
-                >
-                    <li>
-                        <a href="https://research.2077.xyz" target="_blank">Research</a>
-                    </li>
-                    <li>
-                        <a href="https://eips.wiki" target="_blank">EIP Wiki</a>
-                    </li>
-                    <li>
-                        <a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a>
-                    </li>
-                    <li>
-                        <a href="/about">About us</a>
-                    </li>
-                    <li>
-                        <a href="/values">Values</a>
-                    </li>
-                    <li>
-                        <a href="/support">Support us</a>
-                    </li>
-                </ul>
+            <ul
+                class="hidden lg:flex gap-x-6"
+                class:text-white={$page.url.pathname === "/"}
+                class:text-black={$page.url.pathname !== "/"}
+            >
+                <li>
+                    <a href="https://research.2077.xyz" target="_blank"
+                        >Research</a
+                    >
+                </li>
+                <li>
+                    <a href="https://eips.wiki" target="_blank">EIP Wiki</a>
+                </li>
+                <li>
+                    <a href="https://etherpedia.2077.xyz" target="_blank"
+                        >Etherpedia</a
+                    >
+                </li>
+                <li>
+                    <a href="/about">About us</a>
+                </li>
+                <li>
+                    <a href="/values">Values</a>
+                </li>
+                <li>
+                    <a href="/support">Support us</a>
+                </li>
+            </ul>
 
-                <ul class="hidden lg:flex gap-x-4">
-                    <li>
-                        <a href="https://discord.gg/2077collective" target="_blank">
-                            <Discord />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://x.com/2077Collective" target="_blank">
-                            <Twitter />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.farcaster.id/c/2077collective" target="_blank">
-                            <Farcaster />
-                        </a>
-                    </li>
-                </ul>
-            {/if}
-
-            {#if isMobile}
-                <MobileNav />
-            {/if}
+            <ul class="hidden lg:flex gap-x-4">
+                <li>
+                    <a href="https://discord.gg/2077collective" target="_blank">
+                        <Discord />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://x.com/2077Collective" target="_blank">
+                        <Twitter />
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.farcaster.id/c/2077collective"
+                        target="_blank"
+                    >
+                        <Farcaster />
+                    </a>
+                </li>
+            </ul>
+            <MobileNav />
         </nav>
     </div>
 </header>
