@@ -35,7 +35,7 @@
                     <a href="/values">Values</a>
                 </li>
                 <li>
-                    <a href="/support">Suppport us</a>
+                    <a href="/support">Support us</a>
                 </li>
             </ul>
 
