@@ -20,13 +20,17 @@
                 class:text-black={$page.url.pathname !== "/"}
             >
                 <li>
-                    <a href="https://research.2077.xyz" target="_blank">Research</a>
+                    <a href="https://research.2077.xyz" target="_blank"
+                        >Research</a
+                    >
                 </li>
                 <li>
                     <a href="https://eips.wiki" target="_blank">EIP Wiki</a>
                 </li>
                 <li>
-                    <a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a>
+                    <a href="https://etherpedia.2077.xyz" target="_blank"
+                        >Etherpedia</a
+                    >
                 </li>
                 <li>
                     <a href="/about">About us</a>
