@@ -22,7 +22,7 @@
         on:click={() => (open = false)}
     ></button>
     <div
-        class="fixed inset-y-0 right-0 md:w-2/5 max-w-sm w-full max-w-full bg-white dark:bg-gray shadow-lg z-50 overflow-y-auto flex flex-col p-4"
+        class="fixed inset-y-0 right-0 md:w-2/5 max-w-[60%] md:w-[40%] w-full max-w-full bg-white dark:bg-gray shadow-lg z-50 overflow-y-auto flex flex-col p-4"
         transition:slide={{ duration: 300, easing: quintOut }}
     >
         <button
@@ -31,51 +31,45 @@
         >
         <ul class="flex flex-col gap-4">
             <li>
-                <a href="/about" class="flex items-center gap-2">
-                    <About />
-                    <h3 class="font-medium">About us</h3>
-                </a>
-            </li>
-            <li>
-                <a href="/values" class="flex items-center gap-2">
-                    <Values />
-                    <h3 class="font-medium">Values</h3>
+                <a
+                    href="https://research.2077.xyz"
+                    target="_blank"
+                    class="flex items-center gap-2 active:font-bold"
+                >
+                    <h3>Research</h3>
                 </a>
             </li>
             <li>
                 <a
                     href="https://eips.wiki"
                     target="_blank"
-                    class="flex items-center gap-2"
+                    class="flex items-center gap-2 active:font-bold"
                 >
-                    <Wiki />
-                    <h3 class="font-medium">EIPs wiki</h3>
-                </a>
-            </li>
-            <li>
-                <a
-                    href="https://research.2077.xyz"
-                    target="_blank"
-                    class="flex items-center gap-2"
-                >
-                    <Research />
-                    <h3 class="font-medium">Research</h3>
+                    <h3>EIP Wiki</h3>
                 </a>
             </li>
             <li>
                 <a
                     href="https://etherpedia.2077.xyz"
                     target="_blank"
-                    class="flex items-center gap-2"
+                    class="flex items-center gap-2 active:font-bold"
                 >
-                    <Etherpedia />
-                    <h3 class="font-medium">Etherpedia</h3>
+                    <h3>Etherpedia</h3>
                 </a>
             </li>
             <li>
-                <a href="/support" class="flex items-center gap-2">
-                    <Support />
-                    <h3 class="font-medium">Support us</h3>
+                <a href="/about" class="flex items-center gap-2 active:font-bold">
+                    <h3>About us</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/values" class="flex items-center gap-2 active:font-bold">
+                    <h3>Values</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/support" class="flex items-center gap-2 active:text-red">
+                    <h3>Support us</h3>
                 </a>
             </li>
         </ul>
