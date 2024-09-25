@@ -4,7 +4,7 @@
     import Discord from "./icons/Discord.svelte";
     import Farcaster from "./icons/Farcaster.svelte";
     import Twitter from "./icons/Twitter.svelte";
-    import MobileNav from './MobileNav.svelte'
+    import MobileNav from "./MobileNav.svelte";
 </script>
 
 <header class="absolute left-0 right-0 px-6 lg:px-20">
@@ -20,13 +20,19 @@
                 class:text-black={$page.url.pathname !== "/"}
             >
                 <li>
+                    <a href="https://research.2077.xyz" target="_blank">Research</a>
+                </li>
+                <li>
+                    <a href="https://eips.wiki" target="_blank">EIP Wiki</a>
+                </li>
+                <li>
+                    <a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a>
+                </li>
+                <li>
                     <a href="/about">About us</a>
                 </li>
                 <li>
                     <a href="/values">Values</a>
-                </li>
-                <li>
-                    <a href="/">Resources</a>
                 </li>
                 <li>
                     <a href="/support">Support us</a>
