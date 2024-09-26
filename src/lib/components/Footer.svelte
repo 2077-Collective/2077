@@ -27,7 +27,7 @@
                 <ul class="flex flex-col gap-2">
                     <li><a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a></li>
                     <li><a href="https://eips.wiki" target="_blank">EIP wiki</a></li>
-                    <li><a href="https://www.notion.so/Media-Kit-External-10428d0d3291805cad95f6003eba09bb" target="_blank">Assets</a></li>
+                    <li><a href="https://www.notion.so/Media-Kit-External-10428d0d3291805cad95f6003eba09bb" target="_blank" rel="noopener noreferrer">Assets</a></li>
                 </ul>
             </div>
             <div class="flex flex-col gap-4">
