@@ -16,7 +16,7 @@
         on:click={() => (open = false)}
     ></button>
     <div
-        class="fixed inset-y-0 right-0 md:w-2/5 max-w-[60%] md:w-[40%] w-full max-w-full bg-white dark:bg-gray shadow-lg z-50 overflow-y-auto flex flex-col p-4"
+        class="fixed inset-y-0 right-0 md:w-2/5 max-w-[60%] w-full bg-white dark:bg-gray shadow-lg z-50 overflow-y-auto flex flex-col p-4"
         transition:slide={{ duration: 300, easing: quintOut }}
     >
         <button
@@ -29,6 +29,7 @@
                     href="https://research.2077.xyz"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
+                    rel="noopener noreferrer"
                 >
                     <h3>Research</h3>
                 </a>
@@ -38,6 +39,7 @@
                     href="https://eips.wiki"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
+                    rel="noopener noreferrer"
                 >
                     <h3>EIP Wiki</h3>
                 </a>
@@ -47,6 +49,7 @@
                     href="https://etherpedia.2077.xyz"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
+                    rel="noopener noreferrer"
                 >
                     <h3>Etherpedia</h3>
                 </a>

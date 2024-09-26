@@ -20,15 +20,15 @@
                 class:text-black={$page.url.pathname !== "/"}
             >
                 <li>
-                    <a href="https://research.2077.xyz" target="_blank"
+                    <a href="https://research.2077.xyz" target="_blank" rel="noopener noreferrer"
                         >Research</a
                     >
                 </li>
                 <li>
-                    <a href="https://eips.wiki" target="_blank">EIP Wiki</a>
+                    <a href="https://eips.wiki" target="_blank" rel="noopener noreferrer">EIP Wiki</a>
                 </li>
                 <li>
-                    <a href="https://etherpedia.2077.xyz" target="_blank"
+                    <a href="https://etherpedia.2077.xyz" target="_blank" rel="noopener noreferrer"
                         >Etherpedia</a
                     >
                 </li>
@@ -45,19 +45,19 @@
 
             <ul class="hidden lg:flex gap-x-4">
                 <li>
-                    <a href="https://discord.gg/2077collective" target="_blank">
+                    <a href="https://discord.gg/2077collective" target="_blank" rel="noopener noreferrer">
                         <Discord />
                     </a>
                 </li>
                 <li>
-                    <a href="https://x.com/2077Collective" target="_blank">
+                    <a href="https://x.com/2077Collective" target="_blank" rel="noopener noreferrer">
                         <Twitter />
                     </a>
                 </li>
                 <li>
                     <a
                         href="https://www.farcaster.id/c/2077collective"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                     >
                         <Farcaster />
                     </a>

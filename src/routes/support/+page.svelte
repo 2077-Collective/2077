@@ -6,7 +6,7 @@
                 If you're a fan of our work, join us in our mission to build and maintain Ethereum marketing!
             </h2>
             <ul class="pl-6 list-disc text-2xl max-w-screen-5xl flex flex-col gap-y-2">
-                <li><a class="underline decoration-green" href="https://discord.gg/2077collective" target="_blank">Join our Discord server</a></li>
+                <li><a class="underline decoration-green" href="https://discord.gg/2077collective" target="_blank" rel="noopener noreferrer">Join our Discord server</a></li>
                 <li>Write some content about Ethereum</li>
                 <li>Do research into Ethereum protocols</li>
                 <li>Spread the word about 2077 Collective</li>

@@ -40,7 +40,7 @@
             <p class="text-2xl max-w-screen-5xl">
                 Join our <a class="underline decoration-green"
                     href="https://discord.gg/2077collective"
-                    target="_blank">Discord server</a
+                    target="_blank" rel="noopener noreferrer">Discord server</a
                 > and contribute!
             </p>
         </div>
