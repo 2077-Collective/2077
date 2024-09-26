@@ -375,7 +375,7 @@
                 <div>
                     <a
                         class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-4 md:px-6 rounded-full text-base font-medium"
-                        href="https://etherpedia.2077.xyz"
+                        href="https://etherpedia.2077.xyz" target="_blank" rel="noopener noreferrer"
                         >etherpedia.2077.xyz <span class="inline-block"
                             ><Explore /></span
                         ></a
@@ -404,7 +404,7 @@
                     <div>
                         <a
                             class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-base font-medium"
-                            href="https://research.2077.xyz"
+                            href="https://research.2077.xyz" target="_blank" rel="noopener noreferrer"
                             >research.2077.xyz <span class="inline-block"
                                 ><Explore /></span
                             ></a
@@ -427,7 +427,7 @@
                     <div>
                         <a
                             class="inline-flex gap-x-2 items-center bg-green hover:bg-green-dark py-4 px-6 rounded-full text-base font-medium"
-                            href="https://eips.wiki"
+                            href="https://eips.wiki" target="_blank" rel="noopener noreferrer"
                             >eips.wiki <span class="inline-block"
                                 ><Explore /></span
                             ></a
@@ -465,24 +465,21 @@
             >
                 <a
                     class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
-                    href="https://discord.gg/2077collective"
-                    target="_blank"
+                    href="https://discord.gg/2077collective" target="_blank" rel="noopener noreferrer"
                 >
                     <Discord />
                     Discord
                 </a>
                 <a
                     class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
-                    href="https://x.com/2077Collective"
-                    target="_blank"
+                    href="https://x.com/2077Collective" target="_blank" rel="noopener noreferrer"            
                 >
                     <Twitter />
                     Follow us
                 </a>
                 <a
                     class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
-                    href="https://www.farcaster.id/c/2077collective"
-                    target="_blank"
+                    href="https://www.farcaster.id/c/2077collective" target="_blank" rel="noopener noreferrer"    
                 >
                     <Farcaster />
                     Farcaster

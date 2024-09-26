@@ -29,6 +29,7 @@
                     href="https://research.2077.xyz"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
+                    rel="noopener noreferrer"
                 >
                     <h3>Research</h3>
                 </a>
@@ -38,6 +39,7 @@
                     href="https://eips.wiki"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
+                    rel="noopener noreferrer"
                 >
                     <h3>EIP Wiki</h3>
                 </a>
@@ -47,6 +49,7 @@
                     href="https://etherpedia.2077.xyz"
                     target="_blank"
                     class="flex items-center gap-2 active:font-bold"
+                    rel="noopener noreferrer"
                 >
                     <h3>Etherpedia</h3>
                 </a>

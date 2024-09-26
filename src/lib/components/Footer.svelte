@@ -25,17 +25,17 @@
             <div class="flex flex-col gap-4">
                 <h3 class="opacity-50">Resources</h3>
                 <ul class="flex flex-col gap-2">
-                    <li><a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a></li>
-                    <li><a href="https://eips.wiki" target="_blank">EIP wiki</a></li>
+                    <li><a href="https://etherpedia.2077.xyz" target="_blank" rel="noopener noreferrer">Etherpedia</a></li>
+                    <li><a href="https://eips.wiki" target="_blank" rel="noopener noreferrer">EIP wiki</a></li>
                     <li><a href="https://www.notion.so/Media-Kit-External-10428d0d3291805cad95f6003eba09bb" target="_blank" rel="noopener noreferrer">Assets</a></li>
                 </ul>
             </div>
             <div class="flex flex-col gap-4">
                 <h3 class="opacity-50">Socials</h3>
                 <ul class="flex flex-col gap-2">
-                    <li><a href="https://discord.gg/2077collective" target="_blank">Discord</a></li>
-                    <li><a href="https://x.com/2077Collective" target="_blank">X</a></li>
-                    <li><a href="https://www.farcaster.id/c/2077collective" target="_blank">Farcaster</a></li>
+                    <li><a href="https://discord.gg/2077collective" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                    <li><a href="https://x.com/2077Collective" target="_blank" rel="noopener noreferrer">X</a></li>
+                    <li><a href="https://www.farcaster.id/c/2077collective" target="_blank" rel="noopener noreferrer">Farcaster</a></li>
                 </ul>
             </div>
         </div>
