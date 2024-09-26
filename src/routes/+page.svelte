@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
@@ -6,18 +6,94 @@
     import Discord from "../lib/components/icons/Discord.svelte";
     import Farcaster from "../lib/components/icons/Farcaster.svelte";
     import Twitter from "../lib/components/icons/Twitter.svelte";
-    import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
-    import MegaEth from "../lib/components/icons/MegaEth.svelte";
+    import Abcde from "../lib/components/icons/Abcde.svelte";
+    import Azuki from "../lib/components/logos/Azuki.svelte";
+    import Fuellabs from "../lib/components/logos/Fuellabs.svelte";
+    import Lightso from "../lib/components/logos/Lightso.svelte";
+    import Metalex from "../lib/components/logos/Metalex.svelte";
+    import Starknet from "../lib/components/logos/Starknet.svelte";
+    import Therollup from "../lib/components/logos/Therollup.svelte";
+    import Eigenlayer from "$lib/components/logos/Eigenlayer.svelte";
+    import Megaeth from "$lib/components/logos/Megaeth.svelte";
+    import Spire from "../lib/components/logos/Spire.svelte";
+    import ModularMedia from "../lib/components/logos/ModularMedia.svelte";
 
     const supporterImages = [
-        { component: EigenLayer },
-        { component: MegaEth },
-        { imageSrc: "/Vitalik.webp", alt: "Vitalik" },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
-        { component: EigenLayer },
+        {
+            component: Eigenlayer,
+            alt: "eigenlayer",
+            link: "https://eigenlayer.xyz",
+        },
+        { component: Megaeth, alt: "megaeth", link: "https://megaeth.systems" },
+        {
+            imageSrc: "/Vitalik.webp",
+            alt: "Vitalik",
+            link: "https://vitalik.eth.limo/",
+        },
+        { component: Spire, alt: "spire", link: "https://spire.dev" },
+        {
+            imageSrc: "/bo-du.webp",
+            alt: "bo-du",
+            link: "https://x.com/0xshake",
+            darkBackground: true,
+        },
+        { component: Abcde, alt: "abcde", link: "https://www.abcde.com/" },
+        {
+            component: Metalex,
+            alt: "metalex",
+            link: "https://www.metalex.tech/",
+        },
+        { imageSrc: "/johannes.webp", alt: "johannes" },
+        {
+            component: Starknet,
+            alt: "starknet",
+            link: "https://www.starknet.io/",
+        },
+        {
+            imageSrc: "/james-young.webp",
+            alt: "james-young",
+            link: "https://x.com/jamesyoung",
+            darkBackground: true,
+        },
+        { component: Azuki, alt: "azuki", link: "https://www.azuki.com/" },
+        {
+            component: Fuellabs,
+            alt: "fuel-labs",
+            link: "https://fuel.network",
+        },
+        {
+            imageSrc: "/shunkakinoki.webp",
+            alt: "shunkakinoki",
+            link: "https://x.com/shunkakinoki",
+            darkBackground: true,
+        },
+        {
+            component: Lightso,
+            alt: "Lightso",
+            link: "https://light.so/home",
+        },
+        {
+            imageSrc: "/defi-dave.webp",
+            alt: "defi-dave",
+            link: "https://x.com/DeFiDave22",
+        },
+        {
+            imageSrc: "/dankrad.webp",
+            alt: "dankrad",
+            link: "https://x.com/dankrad",
+        },
+        {
+            component: Therollup,
+            alt: "therollup",
+            link: "https://therollup.co",
+        },
+        {
+            imageSrc: "/wei-dai.webp",
+            alt: "wei-dai",
+            link: "https://x.com/_weidai",
+            darkBackground: true,
+        },
+        { component: ModularMedia, alt: "modular-media", link: "https://x.com/modularmedia_" },
     ];
 </script>
 
@@ -321,7 +397,8 @@
                     />
                     <div>
                         <p class="text-white text-xl font-medium max-w-96">
-                            Deep dives and technical analyses on Ethereum infrastructure, protocols, and applications
+                            Deep dives and technical analyses on Ethereum
+                            infrastructure, protocols, and applications
                         </p>
                     </div>
                     <div>
@@ -372,7 +449,7 @@
             <img src="coin.webp" alt="" width="363" height="298" />
         </div>
         <div class="flex flex-col gap-y-12">
-            <div class="flex flex-col gap-y-6">
+            <div class="flex flex-col gap-y-6 text-center lg:text-left">
                 <h2 class="text-6xl font-semibold tracking-tight text-white">
                     Join the Collective
                 </h2>
@@ -383,7 +460,9 @@
                 </p>
             </div>
 
-            <div class="flex flex-col sm:flex-row gap-x-6 gap-y-6">
+            <div
+                class="flex flex-col items-center justify-center lg:justify-start sm:flex-row gap-x-6 gap-y-6"
+            >
                 <a
                     class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
                     href="https://discord.gg/2077collective"
@@ -417,34 +496,47 @@
     <div class="container flex flex-col justify-center gap-y-20">
         <div class="max-w-lg">
             <h2 class="font-semibold text-5xl lg:text-7xl tracking-tight">
-                A huge thanks to our supporters
+                A huge thanks to our friends and supporters
             </h2>
         </div>
 
         <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+            class="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
         >
             {#each supporterImages as supporterImage}
-                <div
+                <svelte:element
+                    this={supporterImage.link ? "a" : "div"}
+                    href={supporterImage.link}
+                    target={supporterImage.link ? "_blank" : undefined}
+                    rel={supporterImage.link
+                        ? "noopener noreferrer"
+                        : undefined}
                     class="relative group cursor-pointer hover:bg-gray-lightest w-[280px] h-[280px] inline-flex justify-center items-center border"
                 >
                     {#if supporterImage.component}
                         <svelte:component this={supporterImage.component} />
                     {/if}
+
                     {#if supporterImage.imageSrc}
                         <img
                             src={supporterImage.imageSrc}
                             alt={supporterImage.alt}
-                            width="280"
-                            height="280"
+                            class="grayscale hover:grayscale-0 transition duration-300"
                         />
                     {/if}
-                    <div
-                        class="absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    >
-                        <Visit />
-                    </div>
-                </div>
+
+                    {#if supporterImage.link}
+                        <div
+                            class={`absolute bottom-4 right-4 group-hover:inline-flex opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${
+                                supporterImage.darkBackground
+                                    ? "text-white"
+                                    : ""
+                            }`}
+                        >
+                            <Visit {supporterImage} />
+                        </div>
+                    {/if}
+                </svelte:element>
             {/each}
         </div>
     </div>
