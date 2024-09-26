@@ -4,7 +4,7 @@
 
 <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="127"
+    width="128"
     height="auto"
     role="img"
     aria-label="Metalex logo"

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Eth from "../lib/components/icons/Eth.svelte";
     import BulletPoint from "../lib/components/icons/BulletPoint.svelte";
     import Explore from "../lib/components/icons/Explore.svelte";
@@ -6,32 +6,31 @@
     import Discord from "../lib/components/icons/Discord.svelte";
     import Farcaster from "../lib/components/icons/Farcaster.svelte";
     import Twitter from "../lib/components/icons/Twitter.svelte";
-    import EigenLayer from "../lib/components/icons/EigenLayer.svelte";
-    import MegaEth from "../lib/components/icons/MegaEth.svelte";
     import Abcde from "../lib/components/icons/Abcde.svelte";
     import Azuki from "../lib/components/logos/Azuki.svelte";
     import Fuellabs from "../lib/components/logos/Fuellabs.svelte";
     import Lightso from "../lib/components/logos/Lightso.svelte";
     import Metalex from "../lib/components/logos/Metalex.svelte";
     import Starknet from "../lib/components/logos/Starknet.svelte";
+    import Therollup from "../lib/components/logos/Therollup.svelte";
+    import Eigenlayer from "$lib/components/logos/Eigenlayer.svelte";
+    import Megaeth from "$lib/components/logos/Megaeth.svelte";
+    import Spire from "../lib/components/logos/Spire.svelte";
+    import ModularMedia from "../lib/components/logos/ModularMedia.svelte";
 
     const supporterImages = [
         {
-            component: EigenLayer,
+            component: Eigenlayer,
             alt: "eigenlayer",
             link: "https://eigenlayer.xyz",
         },
-        { component: MegaEth, alt: "megaeth", link: "https://megaeth.systems" },
+        { component: Megaeth, alt: "megaeth", link: "https://megaeth.systems" },
         {
             imageSrc: "/Vitalik.webp",
             alt: "Vitalik",
             link: "https://vitalik.eth.limo/",
         },
-        {
-            imageSrc: "/spire-labs.webp",
-            alt: "spire-labs",
-            link: "https://spire.dev",
-        },
+        { component: Spire, alt: "spire", link: "https://spire.dev" },
         {
             imageSrc: "/bo-du.webp",
             alt: "bo-du",
@@ -63,15 +62,15 @@
             link: "https://fuel.network",
         },
         {
-            component: Lightso,
-            alt: "Lightso",
-            link: "https://light.so/home",
-        },
-        {
             imageSrc: "/shunkakinoki.webp",
             alt: "shunkakinoki",
             link: "https://x.com/shunkakinoki",
             darkBackground: true,
+        },
+        {
+            component: Lightso,
+            alt: "Lightso",
+            link: "https://light.so/home",
         },
         {
             imageSrc: "/defi-dave.webp",
@@ -84,11 +83,17 @@
             link: "https://x.com/dankrad",
         },
         {
+            component: Therollup,
+            alt: "therollup",
+            link: "https://therollup.co",
+        },
+        {
             imageSrc: "/wei-dai.webp",
             alt: "wei-dai",
             link: "https://x.com/_weidai",
             darkBackground: true,
         },
+        { component: ModularMedia, alt: "modular-media", link: "https://x.com/modularmedia_" },
     ];
 </script>
 
@@ -455,7 +460,9 @@
                 </p>
             </div>
 
-            <div class="flex flex-col items-center justify-center lg:justify-start sm:flex-row gap-x-6 gap-y-6">
+            <div
+                class="flex flex-col items-center justify-center lg:justify-start sm:flex-row gap-x-6 gap-y-6"
+            >
                 <a
                     class=" font-medium max-w-44 border border-white rounded-full py-4 px-6 text-white hover:opacity-65 flex gap-x-4"
                     href="https://discord.gg/2077collective"
@@ -489,7 +496,7 @@
     <div class="container flex flex-col justify-center gap-y-20">
         <div class="max-w-lg">
             <h2 class="font-semibold text-5xl lg:text-7xl tracking-tight">
-                A huge thanks to our supporters
+                A huge thanks to our friends and supporters
             </h2>
         </div>
 
@@ -514,6 +521,7 @@
                         <img
                             src={supporterImage.imageSrc}
                             alt={supporterImage.alt}
+                            class="grayscale hover:grayscale-0 transition duration-300"
                         />
                     {/if}
 
