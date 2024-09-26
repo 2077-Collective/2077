@@ -25,9 +25,8 @@
             <div class="flex flex-col gap-4">
                 <h3 class="opacity-50">Resources</h3>
                 <ul class="flex flex-col gap-2">
-                    <li><a href="/">Blog</a></li>
                     <li><a href="https://etherpedia.2077.xyz" target="_blank">Etherpedia</a></li>
-                    <li><a href="https://eips.wiki" target="_blank">EIPS wiki</a></li>
+                    <li><a href="https://eips.wiki" target="_blank">EIP wiki</a></li>
                     <li><a href="/">Assets</a></li>
                 </ul>
             </div>
