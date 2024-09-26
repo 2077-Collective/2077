@@ -16,7 +16,7 @@
         on:click={() => (open = false)}
     ></button>
     <div
-        class="fixed inset-y-0 right-0 md:w-2/5 max-w-[60%] md:w-[40%] w-full max-w-full bg-white dark:bg-gray shadow-lg z-50 overflow-y-auto flex flex-col p-4"
+        class="fixed inset-y-0 right-0 md:w-2/5 max-w-[60%] w-full bg-white dark:bg-gray shadow-lg z-50 overflow-y-auto flex flex-col p-4"
         transition:slide={{ duration: 300, easing: quintOut }}
     >
         <button
