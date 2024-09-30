@@ -17,6 +17,7 @@
     import Megaeth from "$lib/components/logos/Megaeth.svelte";
     import Spire from "../lib/components/logos/Spire.svelte";
     import ModularMedia from "../lib/components/logos/ModularMedia.svelte";
+    import Ternoa from "../lib/components/logos/Ternoa.svelte";
 
     const supporterImages = [
         {
@@ -62,20 +63,9 @@
             link: "https://fuel.network",
         },
         {
-            imageSrc: "/shunkakinoki.webp",
-            alt: "shunkakinoki",
-            link: "https://x.com/shunkakinoki",
-            darkBackground: true,
-        },
-        {
             component: Lightso,
             alt: "Lightso",
             link: "https://light.so/home",
-        },
-        {
-            imageSrc: "/defi-dave.webp",
-            alt: "defi-dave",
-            link: "https://x.com/DeFiDave22",
         },
         {
             imageSrc: "/dankrad.webp",
@@ -93,7 +83,19 @@
             link: "https://x.com/_weidai",
             darkBackground: true,
         },
+        { component: Ternoa, alt: "ternoa", link: "https://www.ternoa.network/" },
         { component: ModularMedia, alt: "modular-media", link: "https://x.com/modularmedia_" },
+        {
+            imageSrc: "/defi-dave.webp",
+            alt: "defi-dave",
+            link: "https://x.com/DeFiDave22",
+        },
+        {
+            imageSrc: "/shunkakinoki.webp",
+            alt: "shunkakinoki",
+            link: "https://x.com/shunkakinoki",
+            darkBackground: true,
+        },
     ];
 </script>
 
@@ -122,7 +124,7 @@
                 </p>
             </div>
         </div>
-        <div class="pt-24 md:pt-36 text-white">
+        <div class="pt-24 pb-12 md:pt-48 text-white">
             <p class="text-3xl font-semibold max-w-[680px]">
                 We are creatives, researchers, marketers, and developers all
                 working to make <span class="inline-block"><Eth /></span>

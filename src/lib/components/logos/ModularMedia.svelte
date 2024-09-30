@@ -20,7 +20,7 @@
             id="image0_32_117"
             width="150"
             height="150"
-            xlink:href="/modular-media.webp" 
+            xlink:href="/modular.png" 
         />
     </defs>
 </svg>
