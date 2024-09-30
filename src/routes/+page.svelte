@@ -185,7 +185,7 @@
             <p class="text-3xl font-semibold">
                 Solving Ethereum's biggest problem
             </p>
-            <h2 class="text-6xl lg:text-8xl font-bold">
+            <h2 class="text-5xl lg:text-8xl font-bold">
                 Lack of <br /> Marketing
             </h2>
         </div>
@@ -240,7 +240,7 @@
 <section class="flex flex-col gap-y-16 px-6 lg:px-20 pt-24 pb-44">
     <div class="container">
         <div class="lg:flex lg:justify-center">
-            <h2 class=" font-bold text-6xl lg:text-7xl max-w-screen-2xl pb-16">
+            <h2 class=" font-bold text-5xl lg:text-7xl max-w-screen-2xl pb-16">
                 We are Ethernauts making Ethereum <s>cool</s> again and solving ETH's
                 marketing problem.
             </h2>
@@ -547,7 +547,6 @@
         background-position: 0;
         background-size: cover;
         background-repeat: no-repeat;
-        max-height: 920px;
     }
     .banner {
         background-image: url("/banner.webp");
