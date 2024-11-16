@@ -1,11 +1,11 @@
 <script>
-	import { dev } from '$app/environment';
-	import { inject } from '@vercel/analytics';
+	import { dev } from "$app/environment";
+	import { inject } from "@vercel/analytics";
 	import "../app.css";
 	import Header from "$lib/components/Header.svelte";
 	import Footer from "$lib/components/Footer.svelte";
 
-	inject({ mode: dev ? 'development' : 'production' });
+	inject({ mode: dev ? "development" : "production" });
 </script>
 
 <svelte:head>
@@ -57,6 +57,20 @@
 	<meta name="author" content="@2077Collective" />
 	<meta property="og:url" content="https://2077.xyz/" />
 	<meta property="og:logo" content="/logo.svg" />
+	<!-- Google tag (gtag.js) -->
+	<script
+		async
+		src="https://www.googletagmanager.com/gtag/js?id=G-G608STK31L"
+	></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+
+		gtag("config", "G-G608STK31L");
+	</script>
 </svelte:head>
 
 <div>
