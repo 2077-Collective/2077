@@ -57,6 +57,9 @@
 	<meta name="author" content="@2077Collective" />
 	<meta property="og:url" content="https://2077.xyz/" />
 	<meta property="og:logo" content="/logo.svg" />
+
+	<!--Plausible analytics-->
+	<script defer data-domain="2077.xyz" src="https://analytics.2077.xyz/js/script.js"></script>
 </svelte:head>
 
 <div>
