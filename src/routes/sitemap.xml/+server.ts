@@ -1,4 +1,4 @@
-import type { RequestHandler } from '@sveltejs/kit';
+import type { RequestHandler } from "@sveltejs/kit";
 
 interface Article {
     slug: string;
@@ -12,7 +12,11 @@ interface ArticleAPIResponse {
 
 async function fetchResearchPages(): Promise<Article[]> {
     try {
-        const response = await fetch('https://cms.2077.xyz/api/articles/');
+        const apiUrl = import.meta.env.VITE_CMS_API_URL;
+        if (!apiUrl) {
+            throw new Error('VITE_CMS_API_URL environment variable is not set');
+        }
+        const response = await fetch(`${apiUrl}/api/articles/`);
         if (!response.ok) {
             throw new Error(`Failed to fetch articles: ${response.statusText}`);
         }
@@ -29,10 +33,10 @@ async function fetchResearchPages(): Promise<Article[]> {
 }
 
 export const GET: RequestHandler = async ({ request }) => {
-    const protocol = request.headers.get('x-forwarded-proto') || 'https';
+    const protocol = request.headers.get("x-forwarded-proto") || "https";
     const baseURL = import.meta.env.PROD
-        ? 'https://2077.xyz'
-        : `${protocol}://${request.headers.get('host')}`;
+        ? "https://2077.xyz"
+        : `${protocol}://${request.headers.get("host")}`;
 
     const researchPages = await fetchResearchPages();
 
@@ -78,14 +82,14 @@ export const GET: RequestHandler = async ({ request }) => {
                 <changefreq>monthly</changefreq>
                 <priority>0.8</priority>
             </url>
-        `
+        `,
             )
-            .join('')}
+            .join("")}
     </urlset>`;
 
     return new Response(sitemap, {
         headers: {
-            'Content-Type': 'application/xml',
+            "Content-Type": "application/xml",
         },
     });
 };
