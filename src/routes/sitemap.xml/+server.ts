@@ -1,13 +1,13 @@
-import type { RequestHandler } from '@sveltejs/kit';
-import { SITE_URL } from '$env/static/private';
+import type { RequestHandler } from "@sveltejs/kit";
+import { SITE_URL } from "$env/static/private";
 
 export const GET: RequestHandler = async ({ request }) => {
-    const url = new URL(request.url);
-    const baseURL = import.meta.env.PROD
-        ? SITE_URL
-        : `${url.protocol}//${url.host}`;
+  const url = new URL(request.url);
+  const baseURL = import.meta.env.PROD
+    ? SITE_URL
+    : `${url.protocol}//${url.host}`;
 
-    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <!-- Homepage -->
         <url>
@@ -40,9 +40,9 @@ export const GET: RequestHandler = async ({ request }) => {
         </url>
     </urlset>`;
 
-    return new Response(sitemap, {
-        headers: {
-            'Content-Type': 'application/xml',
-        },
-    });
+  return new Response(sitemap, {
+    headers: {
+      "Content-Type": "application/xml",
+    },
+  });
 };
